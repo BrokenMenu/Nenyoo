@@ -1,4 +1,4 @@
-# Nenyoo DLL sections, anti-tamper evidence, and menu-payload suitability
+# Nenyoo DLL protection analysis: sections, UPX and anti-tamper evidence
 
 Eight files inspected: the packed and unpacked copies of VIP/MVP Enhanced and VIP/MVP Legacy. This is a detailed static assessment of available artifacts, not a guarantee that every runtime protection has been discovered.
 
@@ -171,19 +171,17 @@ The files are injectable menu payloads based on observed use. They are not ident
 
 The inspection read local files only. The loader was not launched or logged into, Nenyoo endpoints were not contacted, binaries were not modified, and no anti-tamper or anti-cheat protection was disabled. All eight fresh file hashes still matched the recovery manifest.
 
-The script parses file-backed section ranges, import names, PE directories, load configuration, TLS arrays, export names, resource leaves, and debug metadata; it measures raw-byte entropy and selected literal references. Its detailed results are in ../evidence/dll-protection-evidence.json and the reproduction script inspect-dll-protections.mjs. Every section's metadata was checked against the earlier independent header inspector; artifact sizes/hashes were checked against the established manifest.
+The original inspection script parsed file-backed section ranges, import names, PE directories, load configuration, TLS arrays, export names, resource leaves, and debug metadata; it measured raw-byte entropy and selected literal references. Its [detailed results](../evidence/dll-protection-evidence.json) are published here. Every section's metadata was checked against an independent header inspector; artifact sizes/hashes were checked against the recovery manifest. The original inspection script remains in the local assessment material. The repository's [artifact verifier](../tools/verify_artifacts.py) independently checks file identities and VIP/MVP prefix and padding comparisons; it does not repeat the complete PE inspection.
 
 Unknowns include custom code-page hashing, runtime memory transformations, selected function obfuscation/virtualization, dynamic debugger checks, self-repair or tamper responses, server-side licensing, and the complete feature set. These require call-path analysis or appropriately scoped runtime evidence; static imports and section names cannot answer them completely. No working BattlEye bypass or kernel protection layer has been established by this report.
 
 ## Evidence index
 
-- ../evidence/dll-protection-evidence.json: all eight artifact inventories, hashes, section flags/entropy, imports, mitigation metadata, callbacks, debug entries, resource leaves, and fixed-name checks.
-- inspect-dll-protections.mjs: static inspection script.
-- dll-protection-analysis-output.json: captured selected inspection output.
-- ../evidence/All-variants-comparison.json and .md: complete pairwise body/section comparisons.
-- recovered/hash-manifest.json: original recovery hashes.
-- recovered/Recovery-report.md and per-variant recovery records: provenance, normal module observations, and attribution limits.
-- Nenyoo-loader-kernel-assessment.md: related loader/driver/event evidence.
-- battleye-reference-check.json: reference checks, distinct from a bypass implementation finding.
+- [Detailed protection evidence](../evidence/dll-protection-evidence.json): all eight artifact inventories, hashes, section flags/entropy, imports, mitigation metadata, callbacks, debug entries, resource leaves, and fixed-name checks.
+- [Pairwise comparison evidence](../evidence/All-variants-comparison.json) and [comparison report](variant-comparison.md): body/section comparisons.
+- [Artifact manifest](../evidence/artifact-manifest.json): file locations, sizes and original recovery hashes.
+- [Capture attribution](../README.md#original-nenyoo-dll-captures-enhanced-and-legacy): observed menu selections and identity limitations.
+- [Loader assessment](loader-and-kernel-assessment.md) and [runtime observations](runtime-driver-assessment.md): related injection and driver evidence.
+- [BattlEye reference checks](../evidence/battleye-reference-check.json): word matches, distinct from a bypass implementation finding.
 
 Publication note: this is a copy of the local static report with workstation paths redacted. The repository includes the captured originals and separately decompressed derivatives. Historical raw machine-wide observations and credentials are not included.

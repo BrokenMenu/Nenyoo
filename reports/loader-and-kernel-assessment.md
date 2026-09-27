@@ -1,4 +1,4 @@
-# Loader and kernel assessment
+# Nenyoo loader analysis: user-mode injection and kernel evidence
 
 **The evidence supports user-mode involvement, but does not establish the complete injection mechanism or absence of all kernel assistance.** Read the [runtime report](runtime-driver-assessment.md) alongside these static findings.
 

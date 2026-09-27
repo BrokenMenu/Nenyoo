@@ -1,4 +1,4 @@
-# All four Nenyoo captures compared
+# Nenyoo VIP vs MVP DLL comparison: GTA V Enhanced and Legacy
 
 
 All four selected variants have preserved packed and unpacked files. There are two distinct DLL bodies in these captures: Enhanced and Legacy. Within each edition, VIP and MVP have identical headers and all nine unpacked sections. MVP Enhanced adds 2,334 trailing bytes; MVP Legacy adds 2,675 trailing bytes. None of the complete files are byte-identical, because of either appended data or different DLL bodies.

@@ -1,6 +1,8 @@
-# BattlEye findings and limits
+# Nenyoo BattlEye bypass claim assessment: VIP and MVP evidence
 
 **A working BattlEye bypass was not established by this assessment.** No separately identified bypass component or implementation is included in this repository.
+
+This assessment examines an operator-reported MVP bypass claim. No independently archived vendor statement or feature demonstration is included. The question is what the inspected files and retained runtime observations establish, rather than assuming either success or false advertising.
 
 ## Static word matches
 

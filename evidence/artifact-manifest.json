@@ -1,6 +1,6 @@
 [
   {
-    "path": "artifacts/original/VIP-Enhanced.packed.dll",
+    "path": "VIP-Enhanced.packed.dll",
     "variant": "VIP-Enhanced",
     "form": "packed",
     "bytes": 2942976,
@@ -14,7 +14,7 @@
     "sha256": "91f5b6f5cf589a5f3b52208a678f6e64199e3aa1767105d4f5c2f6e78046addd"
   },
   {
-    "path": "artifacts/original/MVP-Enhanced.packed.dll",
+    "path": "MVP-Enhanced.packed.dll",
     "variant": "MVP-Enhanced",
     "form": "packed",
     "bytes": 2945310,
@@ -28,7 +28,7 @@
     "sha256": "084f28a7927fd7569665757913682adb78155224c086471d62062181d6ed9569"
   },
   {
-    "path": "artifacts/original/VIP-Legacy.packed.dll",
+    "path": "VIP-Legacy.packed.dll",
     "variant": "VIP-Legacy",
     "form": "packed",
     "bytes": 2960896,
@@ -42,7 +42,7 @@
     "sha256": "7fd13c16e57025256aade2d37e3f9fe59464491f1008613f7c7313c7eed9ea86"
   },
   {
-    "path": "artifacts/original/MVP-Legacy.packed.dll",
+    "path": "MVP-Legacy.packed.dll",
     "variant": "MVP-Legacy",
     "form": "packed",
     "bytes": 2963571,
