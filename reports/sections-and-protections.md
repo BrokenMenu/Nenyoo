@@ -180,7 +180,7 @@ Unknowns include custom code-page hashing, runtime memory transformations, selec
 - [Detailed protection evidence](../evidence/dll-protection-evidence.json): all eight artifact inventories, hashes, section flags/entropy, imports, mitigation metadata, callbacks, debug entries, resource leaves, and fixed-name checks.
 - [Pairwise comparison evidence](../evidence/All-variants-comparison.json) and [comparison report](variant-comparison.md): body/section comparisons.
 - [Artifact manifest](../evidence/artifact-manifest.json): file locations, sizes and original recovery hashes.
-- [Capture attribution](../README.md#original-nenyoo-dll-captures-enhanced-and-legacy): observed menu selections and identity limitations.
+- [Capture attribution](../README.md#mvp-dlls): observed menu selections and identity limitations.
 - [Loader assessment](loader-and-kernel-assessment.md) and [runtime observations](runtime-driver-assessment.md): related injection and driver evidence.
 - [BattlEye reference checks](../evidence/battleye-reference-check.json): word matches, distinct from a bypass implementation finding.
 

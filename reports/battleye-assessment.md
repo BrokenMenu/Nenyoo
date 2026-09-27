@@ -2,6 +2,8 @@
 
 **A working BattlEye bypass was not established by this assessment.** No separately identified bypass component or implementation is included in this repository.
 
+The later [expanded MVP assessment](MVP-bypass-assessment.md) adds fresh PE/import parsing, all selected literal occurrences, exact padding verification and limited direct IAT-reference counts for both MVP editions. It preserves the same unverified-functionality conclusion.
+
 This assessment examines an operator-reported MVP bypass claim. No independently archived vendor statement or feature demonstration is included. The question is what the inspected files and retained runtime observations establish, rather than assuming either success or false advertising.
 
 ## Static word matches

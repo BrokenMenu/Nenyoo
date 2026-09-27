@@ -1,0 +1,444 @@
+{
+  "method": "Fresh file hashes, whole-file VIP/MVP prefix comparisons, exact overlay bytes, bounded PE32+ section/import parsing and case-insensitive selected ASCII/UTF-16 literal checks. No execution, hooks, memory reads, network interception or bypass extraction.",
+  "comparisons": [
+    {
+      "edition": "Enhanced",
+      "form": "packed",
+      "vipPrefixIdentical": true,
+      "extraBytes": 2334,
+      "extraByteValues": [
+        32
+      ],
+      "containsExtraExecutableSection": false
+    },
+    {
+      "edition": "Enhanced",
+      "form": "unpacked",
+      "vipPrefixIdentical": true,
+      "extraBytes": 2334,
+      "extraByteValues": [
+        32
+      ],
+      "containsExtraExecutableSection": false
+    },
+    {
+      "edition": "Legacy",
+      "form": "packed",
+      "vipPrefixIdentical": true,
+      "extraBytes": 2675,
+      "extraByteValues": [
+        32
+      ],
+      "containsExtraExecutableSection": false
+    },
+    {
+      "edition": "Legacy",
+      "form": "unpacked",
+      "vipPrefixIdentical": true,
+      "extraBytes": 2675,
+      "extraByteValues": [
+        32
+      ],
+      "containsExtraExecutableSection": false
+    }
+  ],
+  "MVPImages": [
+    {
+      "file": "MVP-Enhanced.unpacked.dll",
+      "bytes": 17592094,
+      "sha256": "084f28a7927fd7569665757913682adb78155224c086471d62062181d6ed9569",
+      "machine": "0x8664",
+      "isDLL": true,
+      "subsystem": 3,
+      "sections": [
+        {
+          "name": ".text",
+          "rva": 4096,
+          "offset": 1024,
+          "bytes": 10811392,
+          "characteristics": 1610612768,
+          "sha256": "fdb79453f0ace9d9c24158f4c5c0e24e37b4721f833d1064ab0249c7b5f8a3de"
+        },
+        {
+          "name": ".rdata",
+          "rva": 10817536,
+          "offset": 10812416,
+          "bytes": 3471872,
+          "characteristics": 1073741888,
+          "sha256": "c8ceed6ffc779dcab938febb7f9eaed01afab2f57090a58deee12a729f5e9c3d"
+        },
+        {
+          "name": ".data",
+          "rva": 14290944,
+          "offset": 14284288,
+          "bytes": 2717696,
+          "characteristics": 3221225536,
+          "sha256": "be9a503937109612357f97c7f2ae6b301470ade443dff5e2a2e36960a8f9cc32"
+        },
+        {
+          "name": ".pdata",
+          "rva": 18571264,
+          "offset": 17001984,
+          "bytes": 420864,
+          "characteristics": 1073741888,
+          "sha256": "3a1cc10214a7bf97483b9da15b5e57a4a5c90259c1f1a4ac41d5f4111f85dd41"
+        },
+        {
+          "name": ".idata",
+          "rva": 18993152,
+          "offset": 17422848,
+          "bytes": 38400,
+          "characteristics": 1073741888,
+          "sha256": "b619005bf06df69313fbc4772fc8e1c191090de1414650a8a286e0e43dbc0add"
+        },
+        {
+          "name": ".tls",
+          "rva": 19034112,
+          "offset": 17461248,
+          "bytes": 1024,
+          "characteristics": 3221225536,
+          "sha256": "4a0dc1f78c41b7dd1b5289d83908b4b0d88f902644b16ce6949b17c25d3fd0f0"
+        },
+        {
+          "name": ".00cfg",
+          "rva": 19038208,
+          "offset": 17462272,
+          "bytes": 512,
+          "characteristics": 1073741888,
+          "sha256": "e61cf02719423238e5c7ef020fcc5d27d866e19cf4c1506f2c21c36a50ee42a0"
+        },
+        {
+          "name": ".rsrc",
+          "rva": 19042304,
+          "offset": 17462784,
+          "bytes": 1536,
+          "characteristics": 1073741888,
+          "sha256": "d59637aadcee66354f84842773b4e473e0172c01ae2cf05683e2de552f273acb"
+        },
+        {
+          "name": ".reloc",
+          "rva": 19046400,
+          "offset": 17464320,
+          "bytes": 125440,
+          "characteristics": 1107296320,
+          "sha256": "53dbffd1c70127587d2578c35421666ac667a59fcdf08fbfe58a6a14537da66d"
+        }
+      ],
+      "importedDLLs": 31,
+      "importedFunctions": 642,
+      "selectedImportCapabilities": {
+        "driverLoading": {
+          "NtLoadDriver": false,
+          "ZwLoadDriver": false,
+          "NtUnloadDriver": false,
+          "ZwUnloadDriver": false
+        },
+        "serviceControl": {
+          "CreateServiceA": false,
+          "CreateServiceW": false,
+          "StartServiceA": false,
+          "StartServiceW": false,
+          "OpenSCManagerA": false,
+          "OpenSCManagerW": false,
+          "OpenServiceA": false,
+          "OpenServiceW": false,
+          "ControlService": false,
+          "DeleteService": false
+        },
+        "deviceCommunication": {
+          "DeviceIoControl": true,
+          "NtDeviceIoControlFile": false,
+          "ZwDeviceIoControlFile": false
+        },
+        "processMemoryAndThreads": {
+          "OpenProcess": true,
+          "ReadProcessMemory": true,
+          "WriteProcessMemory": false,
+          "VirtualAllocEx": false,
+          "VirtualProtectEx": false,
+          "CreateRemoteThread": false,
+          "NtOpenProcess": false,
+          "NtReadVirtualMemory": false,
+          "NtWriteVirtualMemory": false,
+          "NtCreateThreadEx": false
+        },
+        "dynamicResolution": {
+          "LoadLibraryA": true,
+          "LoadLibraryW": false,
+          "LoadLibraryExA": false,
+          "LoadLibraryExW": false,
+          "GetProcAddress": true,
+          "LdrGetProcedureAddress": false
+        }
+      },
+      "delayImportDirectory": {
+        "rva": 0,
+        "bytes": 0
+      },
+      "CLRDirectory": {
+        "rva": 0,
+        "bytes": 0
+      },
+      "fixedTermOccurrences": {
+        "BattlEye": {
+          "asciiOffsets": [
+            11782840,
+            11782920,
+            11986544,
+            11986584,
+            11986631,
+            11986704,
+            11986757,
+            16570554,
+            16570571,
+            16996385,
+            16996402
+          ],
+          "utf16leOffsets": []
+        },
+        "BattleEye": {
+          "asciiOffsets": [],
+          "utf16leOffsets": []
+        },
+        "BEDaisy": {
+          "asciiOffsets": [],
+          "utf16leOffsets": []
+        },
+        "BEService": {
+          "asciiOffsets": [],
+          "utf16leOffsets": []
+        },
+        "bypass": {
+          "asciiOffsets": [
+            11728925,
+            11805608,
+            11805624,
+            11806760,
+            11809616,
+            11809680,
+            11810312,
+            11810408,
+            11816240,
+            11816294,
+            11817944,
+            11826743,
+            11826880
+          ],
+          "utf16leOffsets": []
+        }
+      },
+      "limits": "Import capability and word matches do not establish execution or a working anti-cheat bypass. Dynamically resolved/downloaded functionality is outside this static check.",
+      "limitedDirectIATReferences": {
+        "selectedCallOrJumpCounts": {
+          "DeviceIoControl": 3,
+          "GetProcAddress": 46,
+          "LoadLibraryA": 24,
+          "OpenProcess": 4,
+          "ReadProcessMemory": 5
+        },
+        "linearBytesCovered": 10811392,
+        "skipdataBytes": 2194,
+        "method": "Linear x64 disassembly of executable file-backed sections; direct RIP-relative call/jump references to selected IAT slots only. Counts are static references, not executed calls. Indirect wrappers, computed pointers, data/code ambiguity, dynamic resolution and runtime state are not resolved. No instructions or bypass implementation exported."
+      }
+    },
+    {
+      "file": "MVP-Legacy.unpacked.dll",
+      "bytes": 17708659,
+      "sha256": "b16e60197e642f60622c5712d057b51c0c6dbca968ac1dcd743ce75566088075",
+      "machine": "0x8664",
+      "isDLL": true,
+      "subsystem": 3,
+      "sections": [
+        {
+          "name": ".text",
+          "rva": 4096,
+          "offset": 1024,
+          "bytes": 10909696,
+          "characteristics": 1610612768,
+          "sha256": "bebaa040b4882be41bd31f44780b8ef687589ba40d3bef7a3119f10b60df99ae"
+        },
+        {
+          "name": ".rdata",
+          "rva": 10915840,
+          "offset": 10910720,
+          "bytes": 3486720,
+          "characteristics": 1073741888,
+          "sha256": "966058afc31eb8c33dce13020d5ea8fb1c70fa686646fc693ab6d72d67dd0064"
+        },
+        {
+          "name": ".data",
+          "rva": 14405632,
+          "offset": 14397440,
+          "bytes": 2718208,
+          "characteristics": 3221225536,
+          "sha256": "d30f3c263d672674dcabe8b1203d8800dbb06bffdfe830fe73d5c1ef4917012b"
+        },
+        {
+          "name": ".pdata",
+          "rva": 18685952,
+          "offset": 17115648,
+          "bytes": 423936,
+          "characteristics": 1073741888,
+          "sha256": "f8fd92f3dd8730893ae19a0041500f7bef6120c943ad88b312d8b3ebca563021"
+        },
+        {
+          "name": ".idata",
+          "rva": 19111936,
+          "offset": 17539584,
+          "bytes": 37888,
+          "characteristics": 1073741888,
+          "sha256": "07aac6e9df45f4db2bf24e70becd2f06f1e056bc3358102b7302e284519bea3b"
+        },
+        {
+          "name": ".tls",
+          "rva": 19152896,
+          "offset": 17577472,
+          "bytes": 1024,
+          "characteristics": 3221225536,
+          "sha256": "48724144ca4bb95fecbc4014113b84e492f223c516f1725d0f8c3148074da420"
+        },
+        {
+          "name": ".00cfg",
+          "rva": 19156992,
+          "offset": 17578496,
+          "bytes": 512,
+          "characteristics": 1073741888,
+          "sha256": "77fea94e2b5b69771da77833f5db950325054e231400d56ce1ae291c4c3129f6"
+        },
+        {
+          "name": ".rsrc",
+          "rva": 19161088,
+          "offset": 17579008,
+          "bytes": 1536,
+          "characteristics": 1073741888,
+          "sha256": "9c066ac1560b3975aa3a75f6ac000b93e757064765148a679dfb307a821d94ea"
+        },
+        {
+          "name": ".reloc",
+          "rva": 19165184,
+          "offset": 17580544,
+          "bytes": 125440,
+          "characteristics": 1107296320,
+          "sha256": "becc57f0f88389c5b605a5bf94c7f62177a0d2f8eaa822de514d3fec4bb89165"
+        }
+      ],
+      "importedDLLs": 31,
+      "importedFunctions": 641,
+      "selectedImportCapabilities": {
+        "driverLoading": {
+          "NtLoadDriver": false,
+          "ZwLoadDriver": false,
+          "NtUnloadDriver": false,
+          "ZwUnloadDriver": false
+        },
+        "serviceControl": {
+          "CreateServiceA": false,
+          "CreateServiceW": false,
+          "StartServiceA": false,
+          "StartServiceW": false,
+          "OpenSCManagerA": false,
+          "OpenSCManagerW": false,
+          "OpenServiceA": false,
+          "OpenServiceW": false,
+          "ControlService": false,
+          "DeleteService": false
+        },
+        "deviceCommunication": {
+          "DeviceIoControl": true,
+          "NtDeviceIoControlFile": false,
+          "ZwDeviceIoControlFile": false
+        },
+        "processMemoryAndThreads": {
+          "OpenProcess": true,
+          "ReadProcessMemory": true,
+          "WriteProcessMemory": false,
+          "VirtualAllocEx": false,
+          "VirtualProtectEx": false,
+          "CreateRemoteThread": false,
+          "NtOpenProcess": false,
+          "NtReadVirtualMemory": false,
+          "NtWriteVirtualMemory": false,
+          "NtCreateThreadEx": false
+        },
+        "dynamicResolution": {
+          "LoadLibraryA": true,
+          "LoadLibraryW": false,
+          "LoadLibraryExA": false,
+          "LoadLibraryExW": false,
+          "GetProcAddress": true,
+          "LdrGetProcedureAddress": false
+        }
+      },
+      "delayImportDirectory": {
+        "rva": 0,
+        "bytes": 0
+      },
+      "CLRDirectory": {
+        "rva": 0,
+        "bytes": 0
+      },
+      "fixedTermOccurrences": {
+        "BattlEye": {
+          "asciiOffsets": [
+            11888216,
+            11888296,
+            12091936,
+            12091976,
+            12092023,
+            12092096,
+            12092149,
+            16683658,
+            16683675,
+            17109793,
+            17109810
+          ],
+          "utf16leOffsets": []
+        },
+        "BattleEye": {
+          "asciiOffsets": [],
+          "utf16leOffsets": []
+        },
+        "BEDaisy": {
+          "asciiOffsets": [],
+          "utf16leOffsets": []
+        },
+        "BEService": {
+          "asciiOffsets": [],
+          "utf16leOffsets": []
+        },
+        "bypass": {
+          "asciiOffsets": [
+            11834253,
+            11910952,
+            11910968,
+            11912104,
+            11914960,
+            11915024,
+            11915656,
+            11915752,
+            11921568,
+            11921622,
+            11923272,
+            11932071,
+            11932208
+          ],
+          "utf16leOffsets": []
+        }
+      },
+      "limits": "Import capability and word matches do not establish execution or a working anti-cheat bypass. Dynamically resolved/downloaded functionality is outside this static check.",
+      "limitedDirectIATReferences": {
+        "selectedCallOrJumpCounts": {
+          "DeviceIoControl": 3,
+          "GetProcAddress": 47,
+          "LoadLibraryA": 22,
+          "OpenProcess": 4,
+          "ReadProcessMemory": 5
+        },
+        "linearBytesCovered": 10909696,
+        "skipdataBytes": 2134,
+        "method": "Linear x64 disassembly of executable file-backed sections; direct RIP-relative call/jump references to selected IAT slots only. Counts are static references, not executed calls. Indirect wrappers, computed pointers, data/code ambiguity, dynamic resolution and runtime state are not resolved. No instructions or bypass implementation exported."
+      }
+    }
+  ],
+  "conclusion": "No MVP-exclusive executable content identified in either captured edition. A functioning BattlEye bypass is not demonstrated or disproved by these static checks. Ban causation was not assessed."
+}
