@@ -1,0 +1,10 @@
+{
+  "inputSha256": "baadd8693ecbc88c1cc71ab0256d869b6e9a6c8effb1f90708668d70c600be58",
+  "capstoneVersion": "5.0.7",
+  "method": "Offline x64 disassembly around direct IAT calls to DeviceIoControl, using PE exception-table function boundaries. No target execution.",
+  "limitations": "Direct-call scanning does not cover indirect wrappers or dynamic resolution. Counts outside confirmed disassembly boundaries are heuristic.",
+  "deviceIoControlCalls": [],
+  "selectedDirectCallCandidates": {
+    "GetProcAddress": 45
+  }
+}

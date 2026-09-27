@@ -1,0 +1,3627 @@
+{
+  "method": "Offline PE import parsing and fixed-name ASCII/UTF-16 searches; no target loading or network contact.",
+  "results": [
+    {
+      "file": "D:/Lua/security/Loader.unpacked.bin",
+      "bytes": 11896832,
+      "sha256": "baadd8693ecbc88c1cc71ab0256d869b6e9a6c8effb1f90708668d70c600be58",
+      "imports": [
+        {
+          "dll": "KERNEL32.DLL",
+          "delayed": false,
+          "functions": [
+            "AcquireSRWLockExclusive",
+            "AreFileApisANSI",
+            "CloseHandle",
+            "CompareFileTime",
+            "CompareStringEx",
+            "CompareStringW",
+            "CopyFileA",
+            "CopyFileW",
+            "CreateDirectoryA",
+            "CreateDirectoryW",
+            "CreateEventW",
+            "CreateFileA",
+            "CreateFileW",
+            "CreateProcessA",
+            "CreateProcessW",
+            "CreateRemoteThread",
+            "CreateThread",
+            "CreateToolhelp32Snapshot",
+            "DecodePointer",
+            "DeleteCriticalSection",
+            "DeleteFileA",
+            "DeleteFileW",
+            "DeviceIoControl",
+            "EncodePointer",
+            "EnterCriticalSection",
+            "EnumSystemLocalesW",
+            "ExitProcess",
+            "ExitThread",
+            "ExpandEnvironmentStringsA",
+            "FileTimeToSystemTime",
+            "FindClose",
+            "FindFirstFileA",
+            "FindFirstFileExW",
+            "FindNextFileA",
+            "FindNextFileW",
+            "FindResourceW",
+            "FlsAlloc",
+            "FlsFree",
+            "FlsGetValue",
+            "FlsSetValue",
+            "FlushFileBuffers",
+            "FlushInstructionCache",
+            "FormatMessageA",
+            "FreeEnvironmentStringsW",
+            "FreeLibrary",
+            "FreeLibraryAndExitThread",
+            "GetACP",
+            "GetCPInfo",
+            "GetCommandLineA",
+            "GetCommandLineW",
+            "GetConsoleMode",
+            "GetConsoleOutputCP",
+            "GetCurrentDirectoryW",
+            "GetCurrentProcess",
+            "GetCurrentProcessId",
+            "GetCurrentThread",
+            "GetCurrentThreadId",
+            "GetDateFormatW",
+            "GetEnvironmentStringsW",
+            "GetEnvironmentVariableW",
+            "GetExitCodeProcess",
+            "GetExitCodeThread",
+            "GetFileAttributesA",
+            "GetFileAttributesExW",
+            "GetFileAttributesW",
+            "GetFileInformationByHandleEx",
+            "GetFileSize",
+            "GetFileSizeEx",
+            "GetFileTime",
+            "GetFileType",
+            "GetFirmwareEnvironmentVariableA",
+            "GetFirmwareEnvironmentVariableW",
+            "GetFullPathNameW",
+            "GetLastError",
+            "GetLocalTime",
+            "GetLocaleInfoA",
+            "GetLocaleInfoW",
+            "GetModuleFileNameA",
+            "GetModuleFileNameW",
+            "GetModuleHandleA",
+            "GetModuleHandleExW",
+            "GetModuleHandleW",
+            "GetOEMCP",
+            "GetProcAddress",
+            "GetProcessHeap",
+            "GetStartupInfoW",
+            "GetStdHandle",
+            "GetStringTypeW",
+            "GetSystemInfo",
+            "GetSystemTimeAsFileTime",
+            "GetTempPathA",
+            "GetTempPathW",
+            "GetTickCount",
+            "GetTickCount64",
+            "GetTimeFormatW",
+            "GetTimeZoneInformation",
+            "GetUserDefaultLCID",
+            "GetUserDefaultUILanguage",
+            "GetVolumeNameForVolumeMountPointW",
+            "GlobalAlloc",
+            "GlobalLock",
+            "GlobalMemoryStatusEx",
+            "GlobalUnlock",
+            "HeapAlloc",
+            "HeapFree",
+            "HeapQueryInformation",
+            "HeapReAlloc",
+            "HeapSize",
+            "InitOnceExecuteOnce",
+            "InitializeCriticalSection",
+            "InitializeCriticalSectionAndSpinCount",
+            "InitializeCriticalSectionEx",
+            "InitializeSListHead",
+            "InitializeSRWLock",
+            "IsDebuggerPresent",
+            "IsProcessorFeaturePresent",
+            "IsValidCodePage",
+            "IsValidLocale",
+            "K32EnumProcessModules",
+            "K32EnumProcessModulesEx",
+            "K32GetModuleBaseNameA",
+            "K32GetModuleFileNameExW",
+            "LCMapStringEx",
+            "LCMapStringW",
+            "LeaveCriticalSection",
+            "LoadLibraryA",
+            "LoadLibraryExW",
+            "LoadResource",
+            "LocalFree",
+            "LockResource",
+            "MoveFileExA",
+            "MoveFileExW",
+            "MultiByteToWideChar",
+            "OpenProcess",
+            "OutputDebugStringA",
+            "OutputDebugStringW",
+            "Process32FirstW",
+            "Process32NextW",
+            "QueryFullProcessImageNameA",
+            "QueryPerformanceCounter",
+            "QueryPerformanceFrequency",
+            "QueryUnbiasedInterruptTime",
+            "RaiseException",
+            "ReadConsoleW",
+            "ReadFile",
+            "ReadProcessMemory",
+            "ReleaseSRWLockExclusive",
+            "ResetEvent",
+            "RtlCaptureContext",
+            "RtlLookupFunctionEntry",
+            "RtlPcToFileHeader",
+            "RtlUnwind",
+            "RtlUnwindEx",
+            "RtlVirtualUnwind",
+            "SetEndOfFile",
+            "SetEnvironmentVariableW",
+            "SetEvent",
+            "SetFileAttributesA",
+            "SetFileInformationByHandle",
+            "SetFilePointer",
+            "SetFilePointerEx",
+            "SetFirmwareEnvironmentVariableExW",
+            "SetLastError",
+            "SetStdHandle",
+            "SetUnhandledExceptionFilter",
+            "SizeofResource",
+            "Sleep",
+            "TerminateProcess",
+            "TlsAlloc",
+            "TlsFree",
+            "TlsGetValue",
+            "TlsSetValue",
+            "TryEnterCriticalSection",
+            "UnhandledExceptionFilter",
+            "VirtualAlloc",
+            "VirtualAllocEx",
+            "VirtualFree",
+            "VirtualFreeEx",
+            "VirtualProtect",
+            "VirtualProtectEx",
+            "VirtualQueryEx",
+            "WaitForSingleObject",
+            "WaitForSingleObjectEx",
+            "WideCharToMultiByte",
+            "WriteConsoleW",
+            "WriteFile",
+            "WriteProcessMemory",
+            "lstrcatW",
+            "lstrcmpA",
+            "lstrcpyW"
+          ]
+        },
+        {
+          "dll": "ADVAPI32.dll",
+          "delayed": false,
+          "functions": [
+            "AdjustTokenPrivileges",
+            "GetTokenInformation",
+            "GetUserNameA",
+            "LookupPrivilegeValueA",
+            "LookupPrivilegeValueW",
+            "OpenProcessToken",
+            "RegCloseKey",
+            "RegCreateKeyExA",
+            "RegOpenKeyExA",
+            "RegQueryValueExA",
+            "RegSetValueExA"
+          ]
+        },
+        {
+          "dll": "bcrypt.dll",
+          "delayed": false,
+          "functions": [
+            "BCryptCloseAlgorithmProvider",
+            "BCryptCreateHash",
+            "BCryptDecrypt",
+            "BCryptDestroyHash",
+            "BCryptDestroyKey",
+            "BCryptEncrypt",
+            "BCryptFinishHash",
+            "BCryptGenRandom",
+            "BCryptGenerateSymmetricKey",
+            "BCryptGetProperty",
+            "BCryptHashData",
+            "BCryptOpenAlgorithmProvider",
+            "BCryptSetProperty"
+          ]
+        },
+        {
+          "dll": "COMDLG32.dll",
+          "delayed": false,
+          "functions": [
+            "GetOpenFileNameA"
+          ]
+        },
+        {
+          "dll": "CRYPT32.dll",
+          "delayed": false,
+          "functions": [
+            "CryptProtectData",
+            "CryptStringToBinaryA",
+            "CryptUnprotectData"
+          ]
+        },
+        {
+          "dll": "d2d1.dll",
+          "delayed": false,
+          "functions": [
+            "ordinal:1"
+          ]
+        },
+        {
+          "dll": "d3d11.dll",
+          "delayed": false,
+          "functions": [
+            "D3D11CreateDeviceAndSwapChain"
+          ]
+        },
+        {
+          "dll": "D3DCOMPILER_47.dll",
+          "delayed": false,
+          "functions": [
+            "D3DCompile"
+          ]
+        },
+        {
+          "dll": "dbghelp.dll",
+          "delayed": false,
+          "functions": [
+            "SymCleanup",
+            "SymFromName",
+            "SymGetModuleInfo64",
+            "SymInitialize",
+            "SymLoadModuleEx",
+            "SymSetOptions"
+          ]
+        },
+        {
+          "dll": "dwmapi.dll",
+          "delayed": false,
+          "functions": [
+            "DwmSetWindowAttribute"
+          ]
+        },
+        {
+          "dll": "DWrite.dll",
+          "delayed": false,
+          "functions": [
+            "DWriteCreateFactory"
+          ]
+        },
+        {
+          "dll": "GDI32.dll",
+          "delayed": false,
+          "functions": [
+            "AddFontResourceExW"
+          ]
+        },
+        {
+          "dll": "ole32.dll",
+          "delayed": false,
+          "functions": [
+            "CoCreateInstance",
+            "CoInitializeEx",
+            "CoInitializeSecurity",
+            "CoSetProxyBlanket",
+            "CoTaskMemFree",
+            "CoUninitialize",
+            "PropVariantClear"
+          ]
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "delayed": false,
+          "functions": [
+            "ordinal:25",
+            "ordinal:20",
+            "ordinal:19",
+            "ordinal:77",
+            "ordinal:2",
+            "ordinal:6",
+            "ordinal:9",
+            "ordinal:8"
+          ]
+        },
+        {
+          "dll": "SETUPAPI.dll",
+          "delayed": false,
+          "functions": [
+            "SetupDiDestroyDeviceInfoList",
+            "SetupDiEnumDeviceInfo",
+            "SetupDiGetClassDevsW",
+            "SetupDiGetDeviceRegistryPropertyA"
+          ]
+        },
+        {
+          "dll": "SHELL32.dll",
+          "delayed": false,
+          "functions": [
+            "SHCreateDirectoryExA",
+            "SHGetFolderPathA",
+            "SHGetFolderPathW",
+            "SHGetKnownFolderPath",
+            "ShellExecuteA",
+            "ShellExecuteExW"
+          ]
+        },
+        {
+          "dll": "USER32.dll",
+          "delayed": false,
+          "functions": [
+            "CloseClipboard",
+            "CreateWindowExW",
+            "DefWindowProcW",
+            "DestroyWindow",
+            "DispatchMessageW",
+            "EmptyClipboard",
+            "EnumDisplaySettingsW",
+            "EnumWindows",
+            "ExitWindowsEx",
+            "FindWindowA",
+            "FlashWindowEx",
+            "GetActiveWindow",
+            "GetAsyncKeyState",
+            "GetClientRect",
+            "GetClipboardData",
+            "GetCursorPos",
+            "GetDpiForSystem",
+            "GetForegroundWindow",
+            "GetMonitorInfoW",
+            "GetSystemMetrics",
+            "GetWindow",
+            "GetWindowLongPtrW",
+            "GetWindowRect",
+            "GetWindowTextW",
+            "GetWindowThreadProcessId",
+            "IsIconic",
+            "IsWindowVisible",
+            "KillTimer",
+            "LoadCursorW",
+            "LoadImageW",
+            "MonitorFromWindow",
+            "OpenClipboard",
+            "PeekMessageW",
+            "PostQuitMessage",
+            "PostThreadMessageW",
+            "RegisterClassExW",
+            "ScreenToClient",
+            "SetClipboardData",
+            "SetForegroundWindow",
+            "SetTimer",
+            "SetWindowPos",
+            "SetWindowsHookExW",
+            "ShowWindow",
+            "ShowWindowAsync",
+            "TranslateMessage",
+            "UnregisterClassW",
+            "UpdateWindow"
+          ]
+        },
+        {
+          "dll": "WINHTTP.dll",
+          "delayed": false,
+          "functions": [
+            "WinHttpAddRequestHeaders",
+            "WinHttpCloseHandle",
+            "WinHttpConnect",
+            "WinHttpCrackUrl",
+            "WinHttpOpen",
+            "WinHttpOpenRequest",
+            "WinHttpQueryDataAvailable",
+            "WinHttpQueryHeaders",
+            "WinHttpReadData",
+            "WinHttpReceiveResponse",
+            "WinHttpSendRequest",
+            "WinHttpSetOption"
+          ]
+        }
+      ],
+      "fixedMatches": [
+        {
+          "category": "processAccess",
+          "name": "OpenProcess",
+          "imported": true,
+          "asciiOffset": 7184616,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtOpenProcess",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "ReadProcessMemory",
+          "imported": true,
+          "asciiOffset": 7184870,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "WriteProcessMemory",
+          "imported": true,
+          "asciiOffset": 7185650,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtReadVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtWriteVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "VirtualAllocEx",
+          "imported": true,
+          "asciiOffset": 7185450,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "VirtualProtectEx",
+          "imported": true,
+          "asciiOffset": 7185516,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtAllocateVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtProtectVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "CreateRemoteThread",
+          "imported": true,
+          "asciiOffset": 7182298,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "CreateRemoteThreadEx",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "NtCreateThreadEx",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "RtlCreateUserThread",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "QueueUserAPC",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "NtQueueApcThread",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "SetThreadContext",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "GetThreadContext",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "SetWindowsHookExA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "SetWindowsHookExW",
+          "imported": true,
+          "asciiOffset": 7186938,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryA",
+          "imported": true,
+          "asciiOffset": 7184488,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryExA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryExW",
+          "imported": true,
+          "asciiOffset": 7184504,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LdrLoadDll",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "GetProcAddress",
+          "imported": true,
+          "asciiOffset": 7183620,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "GetModuleHandleA",
+          "imported": true,
+          "asciiOffset": 7183546,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "GetModuleHandleW",
+          "imported": true,
+          "asciiOffset": 7183588,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenSCManagerA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenSCManagerW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "CreateServiceA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "CreateServiceW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "StartServiceA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "StartServiceW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenServiceA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenServiceW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "DeleteService",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "ControlService",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "DeviceIoControl",
+          "imported": true,
+          "asciiOffset": 7182432,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtDeviceIoControlFile",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtLoadDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtUnloadDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "ZwLoadDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtSystemDebugControl",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "ntoskrnl.exe",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "MmCopyVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "PsLookupProcessByProcessId",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "KeStackAttachProcess",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "IoCreateDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "IoCreateDevice",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "IoCreateSymbolicLink",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "DriverEntry",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "iqvw64e.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "RTCore64.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "gdrv.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "dbutil_2_3.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "capcom.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "IsDebuggerPresent",
+          "imported": true,
+          "asciiOffset": 7184250,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "CheckRemoteDebuggerPresent",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "NtQueryInformationProcess",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "EnumDeviceDrivers",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "NtQuerySystemInformation",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WinHttpOpen",
+          "imported": true,
+          "asciiOffset": 7187276,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WinHttpConnect",
+          "imported": true,
+          "asciiOffset": 7187240,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WinHttpSendRequest",
+          "imported": true,
+          "asciiOffset": 7187406,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "InternetOpenA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "InternetOpenW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "HttpSendRequestA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "HttpSendRequestW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WSAStartup",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "connect",
+          "imported": false,
+          "asciiOffset": 7158456,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "SSL_connect",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        }
+      ],
+      "sysFilenameTokens": [],
+      "caution": "Imports and literal presence indicate capabilities or references, not executed paths. Absence does not exclude dynamic resolution, transformed code, external helpers, or encrypted payloads."
+    },
+    {
+      "file": "D:/Lua/security/recovered/VIP-Enhanced.unpacked.dll",
+      "bytes": 17589760,
+      "sha256": "91f5b6f5cf589a5f3b52208a678f6e64199e3aa1767105d4f5c2f6e78046addd",
+      "imports": [
+        {
+          "dll": "KERNEL32.DLL",
+          "delayed": false,
+          "functions": [
+            "GetFileAttributesW",
+            "GetFileAttributesExW",
+            "GetFileInformationByHandle",
+            "GetFinalPathNameByHandleW",
+            "GetFullPathNameW",
+            "SetFileAttributesW",
+            "SetFileInformationByHandle",
+            "SetFileTime",
+            "AreFileApisANSI",
+            "DeviceIoControl",
+            "CreateDirectoryExW",
+            "CopyFileW",
+            "MoveFileExW",
+            "CreateHardLinkW",
+            "GetFileInformationByHandleEx",
+            "CreateSymbolicLinkW",
+            "ReleaseSRWLockShared",
+            "AcquireSRWLockShared",
+            "TryAcquireSRWLockExclusive",
+            "TryAcquireSRWLockShared",
+            "SleepConditionVariableSRW",
+            "InitOnceBeginInitialize",
+            "InitOnceComplete",
+            "WakeAllConditionVariable",
+            "GetCurrentDirectoryW",
+            "SetCurrentDirectoryW",
+            "GetStdHandle",
+            "CreateFileW",
+            "WriteFile",
+            "GetTempPathW",
+            "OutputDebugStringA",
+            "CloseHandle",
+            "SetUnhandledExceptionFilter",
+            "AddVectoredExceptionHandler",
+            "RemoveVectoredExceptionHandler",
+            "WaitForSingleObject",
+            "Sleep",
+            "CreateThread",
+            "GetTickCount64",
+            "VirtualProtect",
+            "VirtualQuery",
+            "GetModuleFileNameW",
+            "GetModuleHandleW",
+            "GetModuleHandleExW",
+            "AllocConsole",
+            "SetConsoleTitleW",
+            "FindClose",
+            "FindFirstFileA",
+            "FindNextFileA",
+            "GetLastError",
+            "LoadLibraryA",
+            "LocalFree",
+            "FormatMessageA",
+            "GetVolumeInformationA",
+            "GlobalMemoryStatusEx",
+            "GetComputerNameA",
+            "DebugActiveProcessStop",
+            "QueryPerformanceCounter",
+            "QueryPerformanceFrequency",
+            "InitializeSListHead",
+            "GetCurrentProcessId",
+            "TerminateProcess",
+            "GetCurrentThread",
+            "GetThreadContext",
+            "OpenProcess",
+            "GetSystemInfo",
+            "GetLocalTime",
+            "FreeLibrary",
+            "CreateToolhelp32Snapshot",
+            "Process32First",
+            "Process32Next",
+            "WideCharToMultiByte",
+            "Process32FirstW",
+            "Process32NextW",
+            "GetPrivateProfileStringA",
+            "WritePrivateProfileStringA",
+            "FindNextFileW",
+            "GetModuleHandleA",
+            "K32GetModuleInformation",
+            "DisableThreadLibraryCalls",
+            "ReadProcessMemory",
+            "CreateEventA",
+            "WaitForMultipleObjects",
+            "ConvertThreadToFiber",
+            "GetProcAddress",
+            "RtlCaptureContext",
+            "GetEnvironmentVariableA",
+            "GetCurrentDirectoryA",
+            "GetFileAttributesA",
+            "SetLastError",
+            "GetCurrentThreadId",
+            "SuspendThread",
+            "ResumeThread",
+            "GetThreadId",
+            "GetVersionExA",
+            "GetModuleFileNameA",
+            "GetModuleHandleExA",
+            "FreeConsole",
+            "AttachConsole",
+            "GetConsoleMode",
+            "SetConsoleMode",
+            "SetConsoleOutputCP",
+            "GetConsoleScreenBufferInfo",
+            "SetConsoleTextAttribute",
+            "SetConsoleTitleA",
+            "GetConsoleWindow",
+            "TerminateThread",
+            "RtlRestoreContext",
+            "SwitchToFiber",
+            "DeleteFiber",
+            "CreateFiber",
+            "GetThreadTimes",
+            "lstrlenW",
+            "MultiByteToWideChar",
+            "ReadFile",
+            "PeekNamedPipe",
+            "WaitNamedPipeW",
+            "HeapCreate",
+            "HeapDestroy",
+            "HeapAlloc",
+            "HeapReAlloc",
+            "HeapFree",
+            "OpenThread",
+            "SetThreadContext",
+            "FlushInstructionCache",
+            "Thread32First",
+            "Thread32Next",
+            "VirtualAlloc",
+            "VirtualFree",
+            "GlobalAlloc",
+            "GlobalUnlock",
+            "GlobalLock",
+            "GlobalFree",
+            "VerSetConditionMask",
+            "GetLocaleInfoA",
+            "ReleaseSRWLockExclusive",
+            "AcquireSRWLockExclusive",
+            "GetTickCount",
+            "EnterCriticalSection",
+            "LeaveCriticalSection",
+            "InitializeCriticalSectionEx",
+            "DeleteCriticalSection",
+            "GetSystemDirectoryA",
+            "FormatMessageW",
+            "MoveFileExA",
+            "WaitForSingleObjectEx",
+            "SleepEx",
+            "VerifyVersionInfoW",
+            "CreateFileA",
+            "GetFileSizeEx",
+            "UnhandledExceptionFilter",
+            "GetLocaleInfoEx",
+            "IsProcessorFeaturePresent",
+            "IsDebuggerPresent",
+            "GetDiskFreeSpaceExW",
+            "FindFirstFileExW",
+            "FindFirstFileW",
+            "IsThreadAFiber",
+            "CreateDirectoryW",
+            "GetStartupInfoW",
+            "GetCurrentProcess",
+            "GetSystemTimeAsFileTime"
+          ]
+        },
+        {
+          "dll": "ADVAPI32.dll",
+          "delayed": false,
+          "functions": [
+            "CryptReleaseContext",
+            "CryptAcquireContextA",
+            "GetUserNameA",
+            "CryptGenRandom",
+            "RegCloseKey",
+            "RegCreateKeyExW",
+            "RegOpenKeyExW",
+            "RegSetValueExW",
+            "CryptGetHashParam",
+            "CryptCreateHash",
+            "CryptHashData",
+            "CryptDestroyHash",
+            "RegQueryValueExW"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-convert-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_ecvt_s",
+            "strtoull",
+            "strtoll",
+            "atof",
+            "atoi",
+            "strtoul",
+            "strtol",
+            "strtof",
+            "wcstombs",
+            "wcstombs_s",
+            "mbstowcs_s",
+            "strtod"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_unlock_file",
+            "remove",
+            "_fstat64",
+            "_stat64",
+            "_access",
+            "_unlink",
+            "_lock_file"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-heap-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "malloc",
+            "_aligned_free",
+            "calloc",
+            "realloc",
+            "_callnewh",
+            "free",
+            "_aligned_malloc"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-locale-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "localeconv",
+            "___lc_codepage_func"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-math-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_dclass",
+            "_fdclass",
+            "_finite",
+            "_fdsign",
+            "_ldsign",
+            "_dsign",
+            "sqrtf",
+            "fmod",
+            "fmodf",
+            "sqrt",
+            "sin",
+            "pow",
+            "_isnan",
+            "logf",
+            "atan2f",
+            "_fdopen",
+            "acosf",
+            "frexp",
+            "ldexp",
+            "powf",
+            "ceil",
+            "log2",
+            "log",
+            "exp2",
+            "sinf",
+            "cosf",
+            "_ldclass",
+            "cos",
+            "ceilf",
+            "floor"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-multibyte-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_mbsnbcpy",
+            "_mbspbrk",
+            "_mbsnbcmp",
+            "_mbschr"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "terminate",
+            "_beginthreadex",
+            "abort",
+            "system",
+            "_initterm",
+            "_cexit",
+            "exit",
+            "_crt_atexit",
+            "_execute_onexit_table",
+            "_invoke_watson",
+            "_register_onexit_function",
+            "_initialize_onexit_table",
+            "_initialize_narrow_environment",
+            "_configure_narrow_argv",
+            "_wassert",
+            "_seh_filter_dll",
+            "_errno",
+            "_invalid_parameter_noinfo",
+            "_crt_at_quick_exit",
+            "_initterm_e",
+            "__sys_nerr",
+            "__sys_errlist"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_open",
+            "feof",
+            "_get_stream_buffer_pointers",
+            "fgets",
+            "fclose",
+            "fflush",
+            "fgetc",
+            "fgetpos",
+            "fputc",
+            "fputs",
+            "fread",
+            "_wfopen_s",
+            "_ftelli64",
+            "fsetpos",
+            "_fseeki64",
+            "fwrite",
+            "setvbuf",
+            "ferror",
+            "fopen",
+            "fseek",
+            "ftell",
+            "_wfopen",
+            "__stdio_common_vfprintf",
+            "__stdio_common_vswprintf",
+            "__acrt_iob_func",
+            "__stdio_common_vsprintf_s",
+            "__stdio_common_vsscanf",
+            "ungetc",
+            "__stdio_common_vsprintf",
+            "_read",
+            "_write",
+            "fopen_s",
+            "_fileno",
+            "_close",
+            "__stdio_common_vsnprintf_s"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-string-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "strcpy_s",
+            "strncmp",
+            "_stricmp",
+            "strspn",
+            "toupper",
+            "strcat_s",
+            "strncpy_s",
+            "tolower",
+            "strcpy",
+            "strpbrk",
+            "wcscat_s",
+            "wcscpy_s",
+            "isdigit",
+            "_strdup",
+            "isalpha",
+            "strcmp",
+            "strncpy",
+            "strcspn",
+            "strlen",
+            "wcslen"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-time-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_W_Getdays",
+            "_W_Getmonths",
+            "clock",
+            "_localtime64",
+            "strftime",
+            "_gmtime64",
+            "_time64",
+            "_localtime64_s"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-utility-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "rand",
+            "qsort",
+            "srand"
+          ]
+        },
+        {
+          "dll": "bcrypt.dll",
+          "delayed": false,
+          "functions": [
+            "BCryptGenRandom"
+          ]
+        },
+        {
+          "dll": "CRYPT32.dll",
+          "delayed": false,
+          "functions": [
+            "CertAddCertificateContextToStore",
+            "CertGetNameStringA",
+            "PFXImportCertStore",
+            "CryptStringToBinaryA",
+            "CertFreeCertificateContext",
+            "CertFindCertificateInStore",
+            "CertEnumCertificatesInStore",
+            "CertCloseStore",
+            "CertOpenStore",
+            "CryptUnprotectData",
+            "CertFindExtension",
+            "CryptQueryObject",
+            "CertCreateCertificateChainEngine",
+            "CertFreeCertificateChainEngine",
+            "CertGetCertificateChain",
+            "CertFreeCertificateChain",
+            "CryptDecodeObjectEx"
+          ]
+        },
+        {
+          "dll": "D3DCOMPILER_47.dll",
+          "delayed": false,
+          "functions": [
+            "D3DCompile"
+          ]
+        },
+        {
+          "dll": "dwmapi.dll",
+          "delayed": false,
+          "functions": [
+            "DwmEnableBlurBehindWindow",
+            "DwmIsCompositionEnabled",
+            "DwmGetColorizationColor"
+          ]
+        },
+        {
+          "dll": "GDI32.dll",
+          "delayed": false,
+          "functions": [
+            "GetDeviceCaps",
+            "DeleteObject",
+            "CreateRectRgn"
+          ]
+        },
+        {
+          "dll": "IMM32.dll",
+          "delayed": false,
+          "functions": [
+            "ImmGetContext",
+            "ImmSetCompositionWindow",
+            "ImmSetCandidateWindow",
+            "ImmReleaseContext"
+          ]
+        },
+        {
+          "dll": "MSVCP140.dll",
+          "delayed": false,
+          "functions": [
+            "?read@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@PEA_W_J@Z",
+            "?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ",
+            "?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@_JH@Z",
+            "?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@V?$fpos@U_Mbstatet@@@2@@Z",
+            "?gcount@?$basic_istream@DU?$char_traits@D@std@@@std@@QEBA_JXZ",
+            "?write@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@PEB_W_J@Z",
+            "?clear@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAAXH_N@Z",
+            "?bad@ios_base@std@@QEBA_NXZ",
+            "?eof@ios_base@std@@QEBA_NXZ",
+            "?_Throw_C_error@std@@YAXH@Z",
+            "_Cnd_signal",
+            "_Cnd_broadcast",
+            "_Cnd_timedwait",
+            "_Cnd_wait",
+            "_Cnd_destroy_in_situ",
+            "?gcount@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEBA_JXZ",
+            "_Cnd_destroy",
+            "_Cnd_init",
+            "_Mtx_current_owns",
+            "_Mtx_destroy_in_situ",
+            "_Mtx_init_in_situ",
+            "_Mtx_destroy",
+            "_Mtx_init",
+            "_Thrd_id",
+            "_Thrd_join",
+            "_Thrd_start",
+            "??4?$_Yarn@_W@std@@QEAAAEAV01@PEB_W@Z",
+            "?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IEAAXPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z",
+            "??0ios_base@std@@IEAA@XZ",
+            "??1ios_base@std@@UEAA@XZ",
+            "?seekg@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@_JH@Z",
+            "?tellg@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ",
+            "_Cnd_init_in_situ",
+            "?seekg@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@V?$fpos@U_Mbstatet@@@2@@Z",
+            "?putback@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z",
+            "?set_new_handler@std@@YAP6AXXZP6AXXZ@Z",
+            "?uncaught_exception@std@@YA_NXZ",
+            "?id@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A",
+            "?_Xbad_alloc@std@@YAXXZ",
+            "?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ",
+            "?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ",
+            "?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ",
+            "?_Xlength_error@std@@YAXPEBD@Z",
+            "?_Xout_of_range@std@@YAXPEBD@Z",
+            "?_Syserror_map@std@@YAPEBDH@Z",
+            "?_Winerror_map@std@@YAHH@Z",
+            "?uncaught_exceptions@std@@YAHXZ",
+            "?good@ios_base@std@@QEBA_NXZ",
+            "?flags@ios_base@std@@QEBAHXZ",
+            "?setf@ios_base@std@@QEAAHHH@Z",
+            "?width@ios_base@std@@QEBA_JXZ",
+            "?width@ios_base@std@@QEAA_J_J@Z",
+            "??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+            "??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+            "?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z",
+            "?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z",
+            "?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z",
+            "?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z",
+            "?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD0@Z",
+            "?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z",
+            "?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+            "??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+            "?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z",
+            "?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ",
+            "?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ",
+            "?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ",
+            "?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAADD@Z",
+            "??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+            "?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@K@Z",
+            "?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ",
+            "??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z",
+            "??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+            "?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z",
+            "?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ",
+            "?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ",
+            "?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ",
+            "?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+            "?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z",
+            "?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z",
+            "?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z",
+            "?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+            "?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z",
+            "??0_Lockit@std@@QEAA@H@Z",
+            "??1_Lockit@std@@QEAA@XZ",
+            "?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ",
+            "?always_noconv@codecvt_base@std@@QEBA_NXZ",
+            "?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z",
+            "?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z",
+            "?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z",
+            "?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z",
+            "?fail@ios_base@std@@QEBA_NXZ",
+            "?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ",
+            "?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+            "?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+            "?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+            "?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+            "?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ",
+            "?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z",
+            "?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ",
+            "?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ",
+            "?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAPEAD0PEAH001@Z",
+            "??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z",
+            "??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+            "?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z",
+            "??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z",
+            "??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+            "?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z",
+            "?_Id_cnt@id@locale@std@@0HA",
+            "?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z",
+            "_Query_perf_counter",
+            "_Query_perf_frequency",
+            "?_Random_device@std@@YAIXZ",
+            "_Thrd_detach",
+            "?_Throw_Cpp_error@std@@YAXH@Z",
+            "??Bios_base@std@@QEBA_NXZ",
+            "?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+            "?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z",
+            "?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z",
+            "?_Xbad_function_call@std@@YAXXZ",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z",
+            "?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z",
+            "_Xtime_get_ticks",
+            "?_Xinvalid_argument@std@@YAXPEBD@Z",
+            "??0_Locinfo@std@@QEAA@PEBD@Z",
+            "??1_Locinfo@std@@QEAA@XZ",
+            "?_Getfalse@_Locinfo@std@@QEBAPEBDXZ",
+            "?_Gettrue@_Locinfo@std@@QEBAPEBDXZ",
+            "?c_str@?$_Yarn@D@std@@QEBAPEBDXZ",
+            "??0facet@locale@std@@IEAA@_K@Z",
+            "??1facet@locale@std@@MEAA@XZ",
+            "?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z",
+            "?_Incref@facet@locale@std@@UEAAXXZ",
+            "?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ",
+            "?id@?$numpunct@D@std@@2V0locale@2@A",
+            "?rdstate@ios_base@std@@QEBAHXZ",
+            "?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z",
+            "_Mtx_lock",
+            "_Mtx_unlock",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEBX@Z",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z",
+            "?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A",
+            "_Thrd_yield",
+            "_Cnd_do_broadcast_at_thread_exit",
+            "?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z",
+            "?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z",
+            "??7ios_base@std@@QEBA_NXZ",
+            "?getloc@ios_base@std@@QEBA?AVlocale@2@XZ",
+            "?id@?$ctype@D@std@@2V0locale@2@A",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@N@Z",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@J@Z",
+            "?setprecision@std@@YA?AU?$_Smanip@_J@1@_J@Z",
+            "?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z",
+            "?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z",
+            "?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z",
+            "?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+            "?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z",
+            "?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A",
+            "?swap@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXAEAV12@@Z",
+            "?put@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QEBA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AEAVios_base@2@DPEBUtm@@PEBD3@Z",
+            "?_Getcat@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z",
+            "?swap@?$basic_ostream@DU?$char_traits@D@std@@@std@@IEAAXAEAV12@@Z",
+            "?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z"
+          ]
+        },
+        {
+          "dll": "ntdll.dll",
+          "delayed": false,
+          "functions": [
+            "RtlVirtualUnwind",
+            "RtlLookupFunctionEntry",
+            "NtQueryVirtualMemory",
+            "NtQuerySystemInformation"
+          ]
+        },
+        {
+          "dll": "ole32.dll",
+          "delayed": false,
+          "functions": [
+            "CoTaskMemFree"
+          ]
+        },
+        {
+          "dll": "SETUPAPI.dll",
+          "delayed": false,
+          "functions": [
+            "SetupDiDestroyDeviceInfoList",
+            "SetupDiGetClassDevsA",
+            "SetupDiGetDeviceRegistryPropertyA",
+            "SetupDiEnumDeviceInfo"
+          ]
+        },
+        {
+          "dll": "SHELL32.dll",
+          "delayed": false,
+          "functions": [
+            "SHGetKnownFolderPath"
+          ]
+        },
+        {
+          "dll": "USER32.dll",
+          "delayed": false,
+          "functions": [
+            "ClientToScreen",
+            "GetCursorPos",
+            "SetCursor",
+            "SetCursorPos",
+            "GetClientRect",
+            "ReleaseDC",
+            "GetDC",
+            "IsWindowUnicode",
+            "ReleaseCapture",
+            "SetCapture",
+            "GetCapture",
+            "GetKeyState",
+            "GetMessageExtraInfo",
+            "TrackMouseEvent",
+            "GetKeyboardLayout",
+            "EmptyClipboard",
+            "GetWindowThreadProcessId",
+            "ScreenToClient",
+            "CloseClipboard",
+            "OpenClipboard",
+            "SetWindowLongA",
+            "GetWindowLongA",
+            "SetLayeredWindowAttributes",
+            "GetDesktopWindow",
+            "GetWindowRect",
+            "CallNextHookEx",
+            "UnhookWindowsHookEx",
+            "SetWindowLongPtrW",
+            "CallWindowProcW",
+            "GetMonitorInfoA",
+            "GetWindow",
+            "MessageBoxA",
+            "GetAsyncKeyState",
+            "GetForegroundWindow",
+            "MonitorFromWindow",
+            "LoadCursorA",
+            "SetClipboardData",
+            "SetProcessDPIAware",
+            "FindWindowA",
+            "GetClipboardData",
+            "GetWindowTextA"
+          ]
+        },
+        {
+          "dll": "VCRUNTIME140.dll",
+          "delayed": false,
+          "functions": [
+            "__std_type_info_name",
+            "__std_type_info_compare",
+            "_purecall",
+            "_CxxThrowException",
+            "strstr",
+            "memchr",
+            "__CxxFrameHandler3",
+            "__RTDynamicCast",
+            "strchr",
+            "strrchr",
+            "__current_exception",
+            "__std_type_info_destroy_list",
+            "__current_exception_context",
+            "memmove",
+            "wcsstr",
+            "memcmp",
+            "__C_specific_handler",
+            "wcsrchr",
+            "__std_terminate",
+            "memcpy",
+            "__std_exception_copy",
+            "__std_exception_destroy",
+            "memset"
+          ]
+        },
+        {
+          "dll": "VCRUNTIME140_1.dll",
+          "delayed": false,
+          "functions": [
+            "__CxxFrameHandler4"
+          ]
+        },
+        {
+          "dll": "VERSION.dll",
+          "delayed": false,
+          "functions": [
+            "GetFileVersionInfoSizeA",
+            "GetFileVersionInfoA",
+            "VerQueryValueA"
+          ]
+        },
+        {
+          "dll": "WINMM.dll",
+          "delayed": false,
+          "functions": [
+            "mciSendStringA"
+          ]
+        },
+        {
+          "dll": "WS2_32.dll",
+          "delayed": false,
+          "functions": [
+            "ordinal:3",
+            "WSAWaitForMultipleEvents",
+            "WSASetEvent",
+            "WSAResetEvent",
+            "WSAEventSelect",
+            "WSAEnumNetworkEvents",
+            "WSACreateEvent",
+            "WSACloseEvent",
+            "ordinal:5",
+            "ordinal:7",
+            "ordinal:10",
+            "ordinal:19",
+            "ordinal:111",
+            "ordinal:15",
+            "freeaddrinfo",
+            "ordinal:112",
+            "inet_ntop",
+            "ordinal:115",
+            "ordinal:116",
+            "inet_pton",
+            "ordinal:21",
+            "WSAIoctl",
+            "ordinal:9",
+            "ordinal:23",
+            "ordinal:151",
+            "ordinal:18",
+            "ordinal:1",
+            "ordinal:2",
+            "ordinal:4",
+            "ordinal:6",
+            "ordinal:8",
+            "ordinal:13",
+            "ordinal:16",
+            "getaddrinfo"
+          ]
+        },
+        {
+          "dll": "XINPUT1_4.dll",
+          "delayed": false,
+          "functions": [
+            "ordinal:3",
+            "ordinal:2"
+          ]
+        }
+      ],
+      "fixedMatches": [
+        {
+          "category": "processAccess",
+          "name": "OpenProcess",
+          "imported": true,
+          "asciiOffset": 17442746,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtOpenProcess",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "ReadProcessMemory",
+          "imported": true,
+          "asciiOffset": 17443076,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "WriteProcessMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtReadVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtWriteVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "VirtualAllocEx",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "VirtualProtectEx",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtAllocateVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtProtectVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "CreateRemoteThread",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "CreateRemoteThreadEx",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "NtCreateThreadEx",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "RtlCreateUserThread",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "QueueUserAPC",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "NtQueueApcThread",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "SetThreadContext",
+          "imported": true,
+          "asciiOffset": 17443860,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "GetThreadContext",
+          "imported": true,
+          "asciiOffset": 17442726,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "SetWindowsHookExA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "SetWindowsHookExW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryA",
+          "imported": true,
+          "asciiOffset": 17442450,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryExA",
+          "imported": false,
+          "asciiOffset": 16195824,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryExW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LdrLoadDll",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "GetProcAddress",
+          "imported": true,
+          "asciiOffset": 17443162,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "GetModuleHandleA",
+          "imported": true,
+          "asciiOffset": 17443002,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "GetModuleHandleW",
+          "imported": true,
+          "asciiOffset": 17442310,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenSCManagerA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenSCManagerW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "CreateServiceA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "CreateServiceW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "StartServiceA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "StartServiceW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenServiceA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenServiceW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "DeleteService",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "ControlService",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "DeviceIoControl",
+          "imported": true,
+          "asciiOffset": 17458244,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtDeviceIoControlFile",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtLoadDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtUnloadDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "ZwLoadDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtSystemDebugControl",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "ntoskrnl.exe",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "MmCopyVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "PsLookupProcessByProcessId",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "KeStackAttachProcess",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "IoCreateDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "IoCreateDevice",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "IoCreateSymbolicLink",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "DriverEntry",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "iqvw64e.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "RTCore64.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "gdrv.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "dbutil_2_3.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "capcom.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "IsDebuggerPresent",
+          "imported": true,
+          "asciiOffset": 12166620,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "CheckRemoteDebuggerPresent",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "NtQueryInformationProcess",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "EnumDeviceDrivers",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "NtQuerySystemInformation",
+          "imported": true,
+          "asciiOffset": 17454652,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WinHttpOpen",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WinHttpConnect",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WinHttpSendRequest",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "InternetOpenA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "InternetOpenW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "HttpSendRequestA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "HttpSendRequestW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WSAStartup",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "connect",
+          "imported": false,
+          "asciiOffset": 11800425,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "SSL_connect",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        }
+      ],
+      "sysFilenameTokens": [],
+      "caution": "Imports and literal presence indicate capabilities or references, not executed paths. Absence does not exclude dynamic resolution, transformed code, external helpers, or encrypted payloads."
+    },
+    {
+      "file": "D:/Lua/security/recovered/VIP-Legacy.unpacked.dll",
+      "bytes": 17705984,
+      "sha256": "7fd13c16e57025256aade2d37e3f9fe59464491f1008613f7c7313c7eed9ea86",
+      "imports": [
+        {
+          "dll": "KERNEL32.DLL",
+          "delayed": false,
+          "functions": [
+            "GetFileAttributesW",
+            "GetFileAttributesExW",
+            "GetFileInformationByHandle",
+            "GetFinalPathNameByHandleW",
+            "GetFullPathNameW",
+            "SetFileAttributesW",
+            "SetFileInformationByHandle",
+            "SetFileTime",
+            "AreFileApisANSI",
+            "DeviceIoControl",
+            "CreateDirectoryExW",
+            "CopyFileW",
+            "MoveFileExW",
+            "CreateHardLinkW",
+            "GetFileInformationByHandleEx",
+            "CreateSymbolicLinkW",
+            "ReleaseSRWLockShared",
+            "AcquireSRWLockShared",
+            "TryAcquireSRWLockExclusive",
+            "TryAcquireSRWLockShared",
+            "SleepConditionVariableSRW",
+            "InitOnceBeginInitialize",
+            "InitOnceComplete",
+            "WakeAllConditionVariable",
+            "GetCurrentDirectoryW",
+            "SetCurrentDirectoryW",
+            "GetCurrentProcess",
+            "GetModuleFileNameA",
+            "K32EnumProcessModules",
+            "GetStdHandle",
+            "CreateFileW",
+            "WriteFile",
+            "GetTempPathW",
+            "OutputDebugStringA",
+            "CloseHandle",
+            "SetUnhandledExceptionFilter",
+            "AddVectoredExceptionHandler",
+            "RemoveVectoredExceptionHandler",
+            "WaitForSingleObject",
+            "Sleep",
+            "CreateThread",
+            "GetTickCount64",
+            "VirtualProtect",
+            "VirtualQuery",
+            "GetModuleFileNameW",
+            "GetModuleHandleW",
+            "GetModuleHandleExW",
+            "AllocConsole",
+            "SetConsoleTitleW",
+            "FindClose",
+            "FindFirstFileA",
+            "FindNextFileA",
+            "GetLastError",
+            "LoadLibraryA",
+            "LocalFree",
+            "FormatMessageA",
+            "GetVolumeInformationA",
+            "GlobalMemoryStatusEx",
+            "InitializeSListHead",
+            "DebugActiveProcessStop",
+            "QueryPerformanceCounter",
+            "QueryPerformanceFrequency",
+            "GetCurrentProcessId",
+            "TerminateProcess",
+            "GetCurrentThread",
+            "GetThreadContext",
+            "OpenProcess",
+            "GetSystemInfo",
+            "GetLocalTime",
+            "FreeLibrary",
+            "CreateToolhelp32Snapshot",
+            "Process32First",
+            "Process32Next",
+            "WideCharToMultiByte",
+            "Process32FirstW",
+            "Process32NextW",
+            "FindNextFileW",
+            "WritePrivateProfileStringA",
+            "IsThreadAFiber",
+            "GetModuleHandleA",
+            "GetProcAddress",
+            "K32GetModuleInformation",
+            "DisableThreadLibraryCalls",
+            "ReadProcessMemory",
+            "ConvertThreadToFiber",
+            "RtlCaptureContext",
+            "GetEnvironmentVariableA",
+            "GetCurrentDirectoryA",
+            "GetFileAttributesA",
+            "SetLastError",
+            "GetCurrentThreadId",
+            "SuspendThread",
+            "ResumeThread",
+            "GetThreadId",
+            "GetVersionExA",
+            "GetModuleHandleExA",
+            "FreeConsole",
+            "AttachConsole",
+            "GetConsoleMode",
+            "SetConsoleMode",
+            "SetConsoleOutputCP",
+            "GetConsoleScreenBufferInfo",
+            "SetConsoleTextAttribute",
+            "SetConsoleTitleA",
+            "GetConsoleWindow",
+            "TerminateThread",
+            "RtlRestoreContext",
+            "SwitchToFiber",
+            "DeleteFiber",
+            "CreateFiber",
+            "GetThreadTimes",
+            "lstrlenW",
+            "MultiByteToWideChar",
+            "ReadFile",
+            "PeekNamedPipe",
+            "WaitNamedPipeW",
+            "HeapCreate",
+            "HeapDestroy",
+            "HeapAlloc",
+            "HeapReAlloc",
+            "HeapFree",
+            "OpenThread",
+            "SetThreadContext",
+            "FlushInstructionCache",
+            "Thread32First",
+            "Thread32Next",
+            "VirtualAlloc",
+            "VirtualFree",
+            "GlobalAlloc",
+            "GlobalUnlock",
+            "GlobalLock",
+            "GlobalFree",
+            "VerSetConditionMask",
+            "GetLocaleInfoA",
+            "ReleaseSRWLockExclusive",
+            "AcquireSRWLockExclusive",
+            "GetTickCount",
+            "EnterCriticalSection",
+            "LeaveCriticalSection",
+            "InitializeCriticalSectionEx",
+            "DeleteCriticalSection",
+            "GetSystemDirectoryA",
+            "FormatMessageW",
+            "MoveFileExA",
+            "WaitForSingleObjectEx",
+            "SleepEx",
+            "VerifyVersionInfoW",
+            "CreateFileA",
+            "GetFileSizeEx",
+            "UnhandledExceptionFilter",
+            "GetLocaleInfoEx",
+            "IsProcessorFeaturePresent",
+            "IsDebuggerPresent",
+            "GetDiskFreeSpaceExW",
+            "FindFirstFileExW",
+            "FindFirstFileW",
+            "GetPrivateProfileStringA",
+            "CreateDirectoryW",
+            "GetStartupInfoW",
+            "GetComputerNameA",
+            "GetSystemTimeAsFileTime"
+          ]
+        },
+        {
+          "dll": "ADVAPI32.dll",
+          "delayed": false,
+          "functions": [
+            "CryptReleaseContext",
+            "CryptAcquireContextA",
+            "GetUserNameA",
+            "CryptGenRandom",
+            "RegCloseKey",
+            "RegCreateKeyExW",
+            "RegOpenKeyExW",
+            "RegSetValueExW",
+            "CryptGetHashParam",
+            "CryptCreateHash",
+            "CryptHashData",
+            "CryptDestroyHash",
+            "RegQueryValueExW"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-convert-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_ecvt_s",
+            "strtoull",
+            "strtoll",
+            "atof",
+            "atoi",
+            "strtoul",
+            "strtol",
+            "strtof",
+            "wcstombs",
+            "wcstombs_s",
+            "mbstowcs_s",
+            "strtod"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_unlock_file",
+            "remove",
+            "_fstat64",
+            "_stat64",
+            "_access",
+            "_unlink",
+            "_lock_file"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-heap-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "malloc",
+            "_aligned_free",
+            "calloc",
+            "realloc",
+            "_callnewh",
+            "free",
+            "_aligned_malloc"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-locale-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "localeconv",
+            "___lc_codepage_func"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-math-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_dclass",
+            "_fdclass",
+            "_finite",
+            "_fdsign",
+            "_ldsign",
+            "_dsign",
+            "sqrtf",
+            "fmod",
+            "fmodf",
+            "sqrt",
+            "sin",
+            "pow",
+            "_isnan",
+            "logf",
+            "atan2f",
+            "_fdopen",
+            "acosf",
+            "frexp",
+            "ldexp",
+            "powf",
+            "ceil",
+            "log2",
+            "log",
+            "exp2",
+            "sinf",
+            "cosf",
+            "_ldclass",
+            "cos",
+            "ceilf",
+            "floor"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-multibyte-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_mbsnbcpy",
+            "_mbspbrk",
+            "_mbsnbcmp",
+            "_mbschr"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "terminate",
+            "_beginthreadex",
+            "abort",
+            "system",
+            "_initterm",
+            "_cexit",
+            "exit",
+            "_crt_atexit",
+            "_execute_onexit_table",
+            "_invoke_watson",
+            "_register_onexit_function",
+            "_initialize_onexit_table",
+            "_initialize_narrow_environment",
+            "_configure_narrow_argv",
+            "_wassert",
+            "_seh_filter_dll",
+            "_errno",
+            "_invalid_parameter_noinfo",
+            "_crt_at_quick_exit",
+            "_initterm_e",
+            "__sys_nerr",
+            "__sys_errlist"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_open",
+            "feof",
+            "_get_stream_buffer_pointers",
+            "fgets",
+            "fclose",
+            "fflush",
+            "fgetc",
+            "fgetpos",
+            "fputc",
+            "fputs",
+            "fread",
+            "_wfopen_s",
+            "_ftelli64",
+            "fsetpos",
+            "_fseeki64",
+            "fwrite",
+            "setvbuf",
+            "ferror",
+            "fopen",
+            "fseek",
+            "ftell",
+            "_wfopen",
+            "__stdio_common_vfprintf",
+            "__stdio_common_vswprintf",
+            "__acrt_iob_func",
+            "__stdio_common_vsprintf_s",
+            "__stdio_common_vsscanf",
+            "ungetc",
+            "__stdio_common_vsprintf",
+            "_read",
+            "_write",
+            "fopen_s",
+            "_fileno",
+            "_close",
+            "__stdio_common_vsnprintf_s"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-string-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "strcpy_s",
+            "strncmp",
+            "_stricmp",
+            "strspn",
+            "toupper",
+            "strcat_s",
+            "strncpy_s",
+            "tolower",
+            "strcpy",
+            "strpbrk",
+            "wcscat_s",
+            "wcscpy_s",
+            "isdigit",
+            "_strdup",
+            "isalpha",
+            "strcmp",
+            "strncpy",
+            "strcspn",
+            "strlen",
+            "wcslen"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-time-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "_W_Getdays",
+            "_W_Getmonths",
+            "clock",
+            "_localtime64",
+            "strftime",
+            "_gmtime64",
+            "_time64",
+            "_localtime64_s"
+          ]
+        },
+        {
+          "dll": "api-ms-win-crt-utility-l1-1-0.dll",
+          "delayed": false,
+          "functions": [
+            "rand",
+            "qsort",
+            "srand"
+          ]
+        },
+        {
+          "dll": "bcrypt.dll",
+          "delayed": false,
+          "functions": [
+            "BCryptGenRandom"
+          ]
+        },
+        {
+          "dll": "CRYPT32.dll",
+          "delayed": false,
+          "functions": [
+            "CertAddCertificateContextToStore",
+            "CertGetNameStringA",
+            "PFXImportCertStore",
+            "CryptStringToBinaryA",
+            "CertFreeCertificateContext",
+            "CertFindCertificateInStore",
+            "CertEnumCertificatesInStore",
+            "CertCloseStore",
+            "CertOpenStore",
+            "CryptUnprotectData",
+            "CertFindExtension",
+            "CryptQueryObject",
+            "CertCreateCertificateChainEngine",
+            "CertFreeCertificateChainEngine",
+            "CertGetCertificateChain",
+            "CertFreeCertificateChain",
+            "CryptDecodeObjectEx"
+          ]
+        },
+        {
+          "dll": "D3DCOMPILER_47.dll",
+          "delayed": false,
+          "functions": [
+            "D3DCompile"
+          ]
+        },
+        {
+          "dll": "dwmapi.dll",
+          "delayed": false,
+          "functions": [
+            "DwmEnableBlurBehindWindow",
+            "DwmIsCompositionEnabled",
+            "DwmGetColorizationColor"
+          ]
+        },
+        {
+          "dll": "GDI32.dll",
+          "delayed": false,
+          "functions": [
+            "GetDeviceCaps",
+            "DeleteObject",
+            "CreateRectRgn"
+          ]
+        },
+        {
+          "dll": "IMM32.dll",
+          "delayed": false,
+          "functions": [
+            "ImmGetContext",
+            "ImmSetCompositionWindow",
+            "ImmSetCandidateWindow",
+            "ImmReleaseContext"
+          ]
+        },
+        {
+          "dll": "MSVCP140.dll",
+          "delayed": false,
+          "functions": [
+            "?read@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@PEA_W_J@Z",
+            "?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ",
+            "?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@_JH@Z",
+            "?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@V?$fpos@U_Mbstatet@@@2@@Z",
+            "?gcount@?$basic_istream@DU?$char_traits@D@std@@@std@@QEBA_JXZ",
+            "?write@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@PEB_W_J@Z",
+            "?clear@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAAXH_N@Z",
+            "?bad@ios_base@std@@QEBA_NXZ",
+            "?eof@ios_base@std@@QEBA_NXZ",
+            "?_Throw_C_error@std@@YAXH@Z",
+            "_Cnd_signal",
+            "_Cnd_broadcast",
+            "_Cnd_timedwait",
+            "_Cnd_wait",
+            "_Cnd_destroy_in_situ",
+            "_Cnd_init_in_situ",
+            "?gcount@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEBA_JXZ",
+            "_Cnd_init",
+            "_Mtx_current_owns",
+            "_Mtx_destroy_in_situ",
+            "_Mtx_init_in_situ",
+            "_Mtx_destroy",
+            "_Mtx_init",
+            "_Thrd_id",
+            "_Thrd_join",
+            "_Thrd_start",
+            "??4?$_Yarn@_W@std@@QEAAAEAV01@PEB_W@Z",
+            "?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IEAAXPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z",
+            "??0ios_base@std@@IEAA@XZ",
+            "??1ios_base@std@@UEAA@XZ",
+            "?putback@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z",
+            "?seekg@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@_JH@Z",
+            "?tellg@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ",
+            "_Cnd_destroy",
+            "?seekg@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@V?$fpos@U_Mbstatet@@@2@@Z",
+            "?set_new_handler@std@@YAP6AXXZP6AXXZ@Z",
+            "?uncaught_exception@std@@YA_NXZ",
+            "?id@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A",
+            "?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z",
+            "?_Xbad_alloc@std@@YAXXZ",
+            "?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ",
+            "?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ",
+            "?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ",
+            "?_Xlength_error@std@@YAXPEBD@Z",
+            "?_Xout_of_range@std@@YAXPEBD@Z",
+            "?_Syserror_map@std@@YAPEBDH@Z",
+            "?_Winerror_map@std@@YAHH@Z",
+            "?uncaught_exceptions@std@@YAHXZ",
+            "?good@ios_base@std@@QEBA_NXZ",
+            "?flags@ios_base@std@@QEBAHXZ",
+            "?setf@ios_base@std@@QEAAHHH@Z",
+            "?width@ios_base@std@@QEBA_JXZ",
+            "?width@ios_base@std@@QEAA_J_J@Z",
+            "??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+            "??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+            "?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z",
+            "?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z",
+            "?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z",
+            "?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z",
+            "?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+            "?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD0@Z",
+            "?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z",
+            "?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+            "??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+            "?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z",
+            "?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ",
+            "?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ",
+            "?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ",
+            "?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAADD@Z",
+            "??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+            "?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@K@Z",
+            "?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ",
+            "??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z",
+            "??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+            "?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z",
+            "?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ",
+            "?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ",
+            "?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ",
+            "?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+            "?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z",
+            "?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z",
+            "?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z",
+            "?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+            "?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z",
+            "??0_Lockit@std@@QEAA@H@Z",
+            "??1_Lockit@std@@QEAA@XZ",
+            "?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ",
+            "?always_noconv@codecvt_base@std@@QEBA_NXZ",
+            "?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z",
+            "?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z",
+            "?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z",
+            "?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z",
+            "?fail@ios_base@std@@QEBA_NXZ",
+            "?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ",
+            "?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+            "?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+            "?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+            "?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+            "?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ",
+            "?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z",
+            "?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ",
+            "?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ",
+            "?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAPEAD0PEAH001@Z",
+            "??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z",
+            "??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+            "?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z",
+            "??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z",
+            "??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+            "?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z",
+            "?_Id_cnt@id@locale@std@@0HA",
+            "?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z",
+            "_Query_perf_counter",
+            "_Query_perf_frequency",
+            "?_Random_device@std@@YAIXZ",
+            "_Thrd_detach",
+            "?_Throw_Cpp_error@std@@YAXH@Z",
+            "??Bios_base@std@@QEBA_NXZ",
+            "?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+            "?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z",
+            "?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z",
+            "?_Xbad_function_call@std@@YAXXZ",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z",
+            "?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z",
+            "_Xtime_get_ticks",
+            "?_Xinvalid_argument@std@@YAXPEBD@Z",
+            "??0_Locinfo@std@@QEAA@PEBD@Z",
+            "??1_Locinfo@std@@QEAA@XZ",
+            "?_Getfalse@_Locinfo@std@@QEBAPEBDXZ",
+            "?_Gettrue@_Locinfo@std@@QEBAPEBDXZ",
+            "?c_str@?$_Yarn@D@std@@QEBAPEBDXZ",
+            "??0facet@locale@std@@IEAA@_K@Z",
+            "??1facet@locale@std@@MEAA@XZ",
+            "?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z",
+            "?_Incref@facet@locale@std@@UEAAXXZ",
+            "?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ",
+            "?id@?$numpunct@D@std@@2V0locale@2@A",
+            "?rdstate@ios_base@std@@QEBAHXZ",
+            "?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z",
+            "_Mtx_lock",
+            "_Mtx_unlock",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEBX@Z",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z",
+            "?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A",
+            "_Thrd_yield",
+            "_Cnd_do_broadcast_at_thread_exit",
+            "?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z",
+            "?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z",
+            "??7ios_base@std@@QEBA_NXZ",
+            "?getloc@ios_base@std@@QEBA?AVlocale@2@XZ",
+            "?id@?$ctype@D@std@@2V0locale@2@A",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z",
+            "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@N@Z",
+            "?setprecision@std@@YA?AU?$_Smanip@_J@1@_J@Z",
+            "?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z",
+            "?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z",
+            "?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z",
+            "?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+            "?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z",
+            "?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A",
+            "?swap@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXAEAV12@@Z",
+            "?put@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QEBA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AEAVios_base@2@DPEBUtm@@PEBD3@Z",
+            "?_Getcat@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z",
+            "?swap@?$basic_ostream@DU?$char_traits@D@std@@@std@@IEAAXAEAV12@@Z"
+          ]
+        },
+        {
+          "dll": "ntdll.dll",
+          "delayed": false,
+          "functions": [
+            "RtlVirtualUnwind",
+            "RtlLookupFunctionEntry",
+            "NtQueryVirtualMemory",
+            "NtQuerySystemInformation"
+          ]
+        },
+        {
+          "dll": "ole32.dll",
+          "delayed": false,
+          "functions": [
+            "CoTaskMemFree"
+          ]
+        },
+        {
+          "dll": "SETUPAPI.dll",
+          "delayed": false,
+          "functions": [
+            "SetupDiGetDeviceRegistryPropertyA",
+            "SetupDiGetClassDevsA",
+            "SetupDiEnumDeviceInfo",
+            "SetupDiDestroyDeviceInfoList"
+          ]
+        },
+        {
+          "dll": "SHELL32.dll",
+          "delayed": false,
+          "functions": [
+            "SHGetKnownFolderPath"
+          ]
+        },
+        {
+          "dll": "USER32.dll",
+          "delayed": false,
+          "functions": [
+            "ClientToScreen",
+            "GetCursorPos",
+            "SetCursor",
+            "SetCursorPos",
+            "GetClientRect",
+            "ReleaseDC",
+            "GetDC",
+            "IsWindowUnicode",
+            "ReleaseCapture",
+            "SetCapture",
+            "GetCapture",
+            "GetKeyState",
+            "GetMessageExtraInfo",
+            "TrackMouseEvent",
+            "GetKeyboardLayout",
+            "EmptyClipboard",
+            "GetWindowThreadProcessId",
+            "ScreenToClient",
+            "CloseClipboard",
+            "OpenClipboard",
+            "SetWindowLongA",
+            "GetWindowLongA",
+            "SetLayeredWindowAttributes",
+            "GetDesktopWindow",
+            "GetWindowRect",
+            "FindWindowW",
+            "CallNextHookEx",
+            "UnhookWindowsHookEx",
+            "SetWindowLongPtrW",
+            "CallWindowProcW",
+            "GetWindow",
+            "LoadCursorA",
+            "MessageBoxA",
+            "GetAsyncKeyState",
+            "GetForegroundWindow",
+            "MonitorFromWindow",
+            "SetClipboardData",
+            "SetProcessDPIAware",
+            "FindWindowA",
+            "GetClipboardData",
+            "GetMonitorInfoA",
+            "GetWindowTextA"
+          ]
+        },
+        {
+          "dll": "VCRUNTIME140.dll",
+          "delayed": false,
+          "functions": [
+            "__std_type_info_compare",
+            "_purecall",
+            "__C_specific_handler",
+            "_CxxThrowException",
+            "strstr",
+            "__std_type_info_name",
+            "__CxxFrameHandler3",
+            "__RTDynamicCast",
+            "strchr",
+            "__std_type_info_destroy_list",
+            "__current_exception",
+            "strrchr",
+            "__current_exception_context",
+            "memchr",
+            "wcsstr",
+            "wcsrchr",
+            "__std_terminate",
+            "memset",
+            "memmove",
+            "memcpy",
+            "__std_exception_copy",
+            "__std_exception_destroy",
+            "memcmp"
+          ]
+        },
+        {
+          "dll": "VCRUNTIME140_1.dll",
+          "delayed": false,
+          "functions": [
+            "__CxxFrameHandler4"
+          ]
+        },
+        {
+          "dll": "VERSION.dll",
+          "delayed": false,
+          "functions": [
+            "GetFileVersionInfoSizeA",
+            "GetFileVersionInfoA",
+            "VerQueryValueA"
+          ]
+        },
+        {
+          "dll": "WINMM.dll",
+          "delayed": false,
+          "functions": [
+            "mciSendStringA"
+          ]
+        },
+        {
+          "dll": "WS2_32.dll",
+          "delayed": false,
+          "functions": [
+            "ordinal:3",
+            "WSAWaitForMultipleEvents",
+            "WSASetEvent",
+            "WSAResetEvent",
+            "WSAEventSelect",
+            "WSAEnumNetworkEvents",
+            "WSACreateEvent",
+            "WSACloseEvent",
+            "ordinal:7",
+            "ordinal:5",
+            "ordinal:10",
+            "ordinal:19",
+            "ordinal:111",
+            "ordinal:15",
+            "freeaddrinfo",
+            "ordinal:112",
+            "inet_ntop",
+            "ordinal:115",
+            "ordinal:116",
+            "inet_pton",
+            "ordinal:21",
+            "WSAIoctl",
+            "ordinal:9",
+            "ordinal:23",
+            "ordinal:151",
+            "ordinal:18",
+            "ordinal:1",
+            "ordinal:2",
+            "ordinal:4",
+            "ordinal:6",
+            "ordinal:8",
+            "ordinal:13",
+            "ordinal:16",
+            "getaddrinfo"
+          ]
+        },
+        {
+          "dll": "XINPUT1_4.dll",
+          "delayed": false,
+          "functions": [
+            "ordinal:3",
+            "ordinal:2"
+          ]
+        }
+      ],
+      "fixedMatches": [
+        {
+          "category": "processAccess",
+          "name": "OpenProcess",
+          "imported": true,
+          "asciiOffset": 17559512,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtOpenProcess",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "ReadProcessMemory",
+          "imported": true,
+          "asciiOffset": 17559860,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "WriteProcessMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtReadVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtWriteVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "VirtualAllocEx",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "VirtualProtectEx",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtAllocateVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "processAccess",
+          "name": "NtProtectVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "CreateRemoteThread",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "CreateRemoteThreadEx",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "NtCreateThreadEx",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "RtlCreateUserThread",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "QueueUserAPC",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "NtQueueApcThread",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "SetThreadContext",
+          "imported": true,
+          "asciiOffset": 17560562,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "GetThreadContext",
+          "imported": true,
+          "asciiOffset": 17559492,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "SetWindowsHookExA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "execution",
+          "name": "SetWindowsHookExW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryA",
+          "imported": true,
+          "asciiOffset": 17559236,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryExA",
+          "imported": false,
+          "asciiOffset": 16308816,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LoadLibraryExW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "LdrLoadDll",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "GetProcAddress",
+          "imported": true,
+          "asciiOffset": 17559788,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "GetModuleHandleA",
+          "imported": true,
+          "asciiOffset": 17559768,
+          "utf16Offset": -1
+        },
+        {
+          "category": "moduleLoading",
+          "name": "GetModuleHandleW",
+          "imported": true,
+          "asciiOffset": 17559096,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenSCManagerA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenSCManagerW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "CreateServiceA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "CreateServiceW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "StartServiceA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "StartServiceW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenServiceA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "OpenServiceW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "DeleteService",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "ControlService",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "DeviceIoControl",
+          "imported": true,
+          "asciiOffset": 17574894,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtDeviceIoControlFile",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtLoadDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtUnloadDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "ZwLoadDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "driverControl",
+          "name": "NtSystemDebugControl",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "ntoskrnl.exe",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "MmCopyVirtualMemory",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "PsLookupProcessByProcessId",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "KeStackAttachProcess",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "IoCreateDriver",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "IoCreateDevice",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "IoCreateSymbolicLink",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "DriverEntry",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "iqvw64e.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "RTCore64.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "gdrv.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "dbutil_2_3.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "kernelSymbols",
+          "name": "capcom.sys",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "IsDebuggerPresent",
+          "imported": true,
+          "asciiOffset": 12272188,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "CheckRemoteDebuggerPresent",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "NtQueryInformationProcess",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "EnumDeviceDrivers",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "diagnostics",
+          "name": "NtQuerySystemInformation",
+          "imported": true,
+          "asciiOffset": 17571302,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WinHttpOpen",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WinHttpConnect",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WinHttpSendRequest",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "InternetOpenA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "InternetOpenW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "HttpSendRequestA",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "HttpSendRequestW",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "WSAStartup",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "connect",
+          "imported": false,
+          "asciiOffset": 11905801,
+          "utf16Offset": -1
+        },
+        {
+          "category": "transport",
+          "name": "SSL_connect",
+          "imported": false,
+          "asciiOffset": -1,
+          "utf16Offset": -1
+        }
+      ],
+      "sysFilenameTokens": [],
+      "caution": "Imports and literal presence indicate capabilities or references, not executed paths. Absence does not exclude dynamic resolution, transformed code, external helpers, or encrypted payloads."
+    }
+  ]
+}

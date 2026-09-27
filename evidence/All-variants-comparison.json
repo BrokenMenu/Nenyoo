@@ -1,0 +1,851 @@
+{
+  "method": "Fresh offline byte comparisons of all eight artifacts; DLL body includes headers and file-backed sections, excluding trailing overlay. No target execution or process access.",
+  "files": [
+    {
+      "variant": "VIP-Enhanced",
+      "form": "packed",
+      "name": "VIP-Enhanced.packed.dll",
+      "bytes": 2942976,
+      "sha256": "556dc7224bd49202a92993af4983bd3d9e9da49bbb44f1a1e718855a63d7671c",
+      "headerSize": 1024,
+      "bodyEnd": 2942976,
+      "bodySha256": "556dc7224bd49202a92993af4983bd3d9e9da49bbb44f1a1e718855a63d7671c",
+      "overlayBytes": 0,
+      "overlaySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sections": [
+        {
+          "name": "UPX0",
+          "offset": 1024,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "UPX1",
+          "offset": 1024,
+          "bytes": 2938880,
+          "sha256": "0314b13a6a0351e1e0534a5f110db835982a9c7acef38931a0b74d4a532f6ed0"
+        },
+        {
+          "name": ".rsrc",
+          "offset": 2939904,
+          "bytes": 3072,
+          "sha256": "e79f63952c52bdf830fbce7f47182d52b42bf561a2b8e09c491d42c51528b26d"
+        }
+      ]
+    },
+    {
+      "variant": "VIP-Enhanced",
+      "form": "unpacked",
+      "name": "VIP-Enhanced.unpacked.dll",
+      "bytes": 17589760,
+      "sha256": "91f5b6f5cf589a5f3b52208a678f6e64199e3aa1767105d4f5c2f6e78046addd",
+      "headerSize": 1024,
+      "bodyEnd": 17589760,
+      "bodySha256": "91f5b6f5cf589a5f3b52208a678f6e64199e3aa1767105d4f5c2f6e78046addd",
+      "overlayBytes": 0,
+      "overlaySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sections": [
+        {
+          "name": ".text",
+          "offset": 1024,
+          "bytes": 10811392,
+          "sha256": "fdb79453f0ace9d9c24158f4c5c0e24e37b4721f833d1064ab0249c7b5f8a3de"
+        },
+        {
+          "name": ".rdata",
+          "offset": 10812416,
+          "bytes": 3471872,
+          "sha256": "c8ceed6ffc779dcab938febb7f9eaed01afab2f57090a58deee12a729f5e9c3d"
+        },
+        {
+          "name": ".data",
+          "offset": 14284288,
+          "bytes": 2717696,
+          "sha256": "be9a503937109612357f97c7f2ae6b301470ade443dff5e2a2e36960a8f9cc32"
+        },
+        {
+          "name": ".pdata",
+          "offset": 17001984,
+          "bytes": 420864,
+          "sha256": "3a1cc10214a7bf97483b9da15b5e57a4a5c90259c1f1a4ac41d5f4111f85dd41"
+        },
+        {
+          "name": ".idata",
+          "offset": 17422848,
+          "bytes": 38400,
+          "sha256": "b619005bf06df69313fbc4772fc8e1c191090de1414650a8a286e0e43dbc0add"
+        },
+        {
+          "name": ".tls",
+          "offset": 17461248,
+          "bytes": 1024,
+          "sha256": "4a0dc1f78c41b7dd1b5289d83908b4b0d88f902644b16ce6949b17c25d3fd0f0"
+        },
+        {
+          "name": ".00cfg",
+          "offset": 17462272,
+          "bytes": 512,
+          "sha256": "e61cf02719423238e5c7ef020fcc5d27d866e19cf4c1506f2c21c36a50ee42a0"
+        },
+        {
+          "name": ".rsrc",
+          "offset": 17462784,
+          "bytes": 1536,
+          "sha256": "d59637aadcee66354f84842773b4e473e0172c01ae2cf05683e2de552f273acb"
+        },
+        {
+          "name": ".reloc",
+          "offset": 17464320,
+          "bytes": 125440,
+          "sha256": "53dbffd1c70127587d2578c35421666ac667a59fcdf08fbfe58a6a14537da66d"
+        }
+      ]
+    },
+    {
+      "variant": "MVP-Enhanced",
+      "form": "packed",
+      "name": "MVP-Enhanced.packed.dll",
+      "bytes": 2945310,
+      "sha256": "b3eb3bed9ada5995cd1ea6d833bb0eacd79c8f7a631204237bea43cb86145988",
+      "headerSize": 1024,
+      "bodyEnd": 2942976,
+      "bodySha256": "556dc7224bd49202a92993af4983bd3d9e9da49bbb44f1a1e718855a63d7671c",
+      "overlayBytes": 2334,
+      "overlaySha256": "68efa6b8eb938d11068ec790e0de9e73ff8a53d4daddef8dd62833f8db67f53f",
+      "sections": [
+        {
+          "name": "UPX0",
+          "offset": 1024,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "UPX1",
+          "offset": 1024,
+          "bytes": 2938880,
+          "sha256": "0314b13a6a0351e1e0534a5f110db835982a9c7acef38931a0b74d4a532f6ed0"
+        },
+        {
+          "name": ".rsrc",
+          "offset": 2939904,
+          "bytes": 3072,
+          "sha256": "e79f63952c52bdf830fbce7f47182d52b42bf561a2b8e09c491d42c51528b26d"
+        }
+      ]
+    },
+    {
+      "variant": "MVP-Enhanced",
+      "form": "unpacked",
+      "name": "MVP-Enhanced.unpacked.dll",
+      "bytes": 17592094,
+      "sha256": "084f28a7927fd7569665757913682adb78155224c086471d62062181d6ed9569",
+      "headerSize": 1024,
+      "bodyEnd": 17589760,
+      "bodySha256": "91f5b6f5cf589a5f3b52208a678f6e64199e3aa1767105d4f5c2f6e78046addd",
+      "overlayBytes": 2334,
+      "overlaySha256": "68efa6b8eb938d11068ec790e0de9e73ff8a53d4daddef8dd62833f8db67f53f",
+      "sections": [
+        {
+          "name": ".text",
+          "offset": 1024,
+          "bytes": 10811392,
+          "sha256": "fdb79453f0ace9d9c24158f4c5c0e24e37b4721f833d1064ab0249c7b5f8a3de"
+        },
+        {
+          "name": ".rdata",
+          "offset": 10812416,
+          "bytes": 3471872,
+          "sha256": "c8ceed6ffc779dcab938febb7f9eaed01afab2f57090a58deee12a729f5e9c3d"
+        },
+        {
+          "name": ".data",
+          "offset": 14284288,
+          "bytes": 2717696,
+          "sha256": "be9a503937109612357f97c7f2ae6b301470ade443dff5e2a2e36960a8f9cc32"
+        },
+        {
+          "name": ".pdata",
+          "offset": 17001984,
+          "bytes": 420864,
+          "sha256": "3a1cc10214a7bf97483b9da15b5e57a4a5c90259c1f1a4ac41d5f4111f85dd41"
+        },
+        {
+          "name": ".idata",
+          "offset": 17422848,
+          "bytes": 38400,
+          "sha256": "b619005bf06df69313fbc4772fc8e1c191090de1414650a8a286e0e43dbc0add"
+        },
+        {
+          "name": ".tls",
+          "offset": 17461248,
+          "bytes": 1024,
+          "sha256": "4a0dc1f78c41b7dd1b5289d83908b4b0d88f902644b16ce6949b17c25d3fd0f0"
+        },
+        {
+          "name": ".00cfg",
+          "offset": 17462272,
+          "bytes": 512,
+          "sha256": "e61cf02719423238e5c7ef020fcc5d27d866e19cf4c1506f2c21c36a50ee42a0"
+        },
+        {
+          "name": ".rsrc",
+          "offset": 17462784,
+          "bytes": 1536,
+          "sha256": "d59637aadcee66354f84842773b4e473e0172c01ae2cf05683e2de552f273acb"
+        },
+        {
+          "name": ".reloc",
+          "offset": 17464320,
+          "bytes": 125440,
+          "sha256": "53dbffd1c70127587d2578c35421666ac667a59fcdf08fbfe58a6a14537da66d"
+        }
+      ]
+    },
+    {
+      "variant": "VIP-Legacy",
+      "form": "packed",
+      "name": "VIP-Legacy.packed.dll",
+      "bytes": 2960896,
+      "sha256": "ea9ae0f8b196b9c65cd5a136e7b7ea7efbc99575c760f8d8e08be7d85565cf70",
+      "headerSize": 1024,
+      "bodyEnd": 2960896,
+      "bodySha256": "ea9ae0f8b196b9c65cd5a136e7b7ea7efbc99575c760f8d8e08be7d85565cf70",
+      "overlayBytes": 0,
+      "overlaySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sections": [
+        {
+          "name": "UPX0",
+          "offset": 1024,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "UPX1",
+          "offset": 1024,
+          "bytes": 2956800,
+          "sha256": "3b8bc12db8e830fe40a255f47551e83a2d4f3c6e42fda5b9e65d413b875cee5a"
+        },
+        {
+          "name": ".rsrc",
+          "offset": 2957824,
+          "bytes": 3072,
+          "sha256": "c815cba482ae8b39fe09b6f56a95c64b9148d45804a09baf18e79893a256e0f3"
+        }
+      ]
+    },
+    {
+      "variant": "VIP-Legacy",
+      "form": "unpacked",
+      "name": "VIP-Legacy.unpacked.dll",
+      "bytes": 17705984,
+      "sha256": "7fd13c16e57025256aade2d37e3f9fe59464491f1008613f7c7313c7eed9ea86",
+      "headerSize": 1024,
+      "bodyEnd": 17705984,
+      "bodySha256": "7fd13c16e57025256aade2d37e3f9fe59464491f1008613f7c7313c7eed9ea86",
+      "overlayBytes": 0,
+      "overlaySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sections": [
+        {
+          "name": ".text",
+          "offset": 1024,
+          "bytes": 10909696,
+          "sha256": "bebaa040b4882be41bd31f44780b8ef687589ba40d3bef7a3119f10b60df99ae"
+        },
+        {
+          "name": ".rdata",
+          "offset": 10910720,
+          "bytes": 3486720,
+          "sha256": "966058afc31eb8c33dce13020d5ea8fb1c70fa686646fc693ab6d72d67dd0064"
+        },
+        {
+          "name": ".data",
+          "offset": 14397440,
+          "bytes": 2718208,
+          "sha256": "d30f3c263d672674dcabe8b1203d8800dbb06bffdfe830fe73d5c1ef4917012b"
+        },
+        {
+          "name": ".pdata",
+          "offset": 17115648,
+          "bytes": 423936,
+          "sha256": "f8fd92f3dd8730893ae19a0041500f7bef6120c943ad88b312d8b3ebca563021"
+        },
+        {
+          "name": ".idata",
+          "offset": 17539584,
+          "bytes": 37888,
+          "sha256": "07aac6e9df45f4db2bf24e70becd2f06f1e056bc3358102b7302e284519bea3b"
+        },
+        {
+          "name": ".tls",
+          "offset": 17577472,
+          "bytes": 1024,
+          "sha256": "48724144ca4bb95fecbc4014113b84e492f223c516f1725d0f8c3148074da420"
+        },
+        {
+          "name": ".00cfg",
+          "offset": 17578496,
+          "bytes": 512,
+          "sha256": "77fea94e2b5b69771da77833f5db950325054e231400d56ce1ae291c4c3129f6"
+        },
+        {
+          "name": ".rsrc",
+          "offset": 17579008,
+          "bytes": 1536,
+          "sha256": "9c066ac1560b3975aa3a75f6ac000b93e757064765148a679dfb307a821d94ea"
+        },
+        {
+          "name": ".reloc",
+          "offset": 17580544,
+          "bytes": 125440,
+          "sha256": "becc57f0f88389c5b605a5bf94c7f62177a0d2f8eaa822de514d3fec4bb89165"
+        }
+      ]
+    },
+    {
+      "variant": "MVP-Legacy",
+      "form": "packed",
+      "name": "MVP-Legacy.packed.dll",
+      "bytes": 2963571,
+      "sha256": "4dce52142a631dd5ae7dd975e7fb4b1a1fddd94c669c520b4eb018d59f074651",
+      "headerSize": 1024,
+      "bodyEnd": 2960896,
+      "bodySha256": "ea9ae0f8b196b9c65cd5a136e7b7ea7efbc99575c760f8d8e08be7d85565cf70",
+      "overlayBytes": 2675,
+      "overlaySha256": "7f905291c633d3a44d1b092a6c8262cb2c0e2bd849bea2fb8e6bd63a38e589b0",
+      "sections": [
+        {
+          "name": "UPX0",
+          "offset": 1024,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "UPX1",
+          "offset": 1024,
+          "bytes": 2956800,
+          "sha256": "3b8bc12db8e830fe40a255f47551e83a2d4f3c6e42fda5b9e65d413b875cee5a"
+        },
+        {
+          "name": ".rsrc",
+          "offset": 2957824,
+          "bytes": 3072,
+          "sha256": "c815cba482ae8b39fe09b6f56a95c64b9148d45804a09baf18e79893a256e0f3"
+        }
+      ]
+    },
+    {
+      "variant": "MVP-Legacy",
+      "form": "unpacked",
+      "name": "MVP-Legacy.unpacked.dll",
+      "bytes": 17708659,
+      "sha256": "b16e60197e642f60622c5712d057b51c0c6dbca968ac1dcd743ce75566088075",
+      "headerSize": 1024,
+      "bodyEnd": 17705984,
+      "bodySha256": "7fd13c16e57025256aade2d37e3f9fe59464491f1008613f7c7313c7eed9ea86",
+      "overlayBytes": 2675,
+      "overlaySha256": "7f905291c633d3a44d1b092a6c8262cb2c0e2bd849bea2fb8e6bd63a38e589b0",
+      "sections": [
+        {
+          "name": ".text",
+          "offset": 1024,
+          "bytes": 10909696,
+          "sha256": "bebaa040b4882be41bd31f44780b8ef687589ba40d3bef7a3119f10b60df99ae"
+        },
+        {
+          "name": ".rdata",
+          "offset": 10910720,
+          "bytes": 3486720,
+          "sha256": "966058afc31eb8c33dce13020d5ea8fb1c70fa686646fc693ab6d72d67dd0064"
+        },
+        {
+          "name": ".data",
+          "offset": 14397440,
+          "bytes": 2718208,
+          "sha256": "d30f3c263d672674dcabe8b1203d8800dbb06bffdfe830fe73d5c1ef4917012b"
+        },
+        {
+          "name": ".pdata",
+          "offset": 17115648,
+          "bytes": 423936,
+          "sha256": "f8fd92f3dd8730893ae19a0041500f7bef6120c943ad88b312d8b3ebca563021"
+        },
+        {
+          "name": ".idata",
+          "offset": 17539584,
+          "bytes": 37888,
+          "sha256": "07aac6e9df45f4db2bf24e70becd2f06f1e056bc3358102b7302e284519bea3b"
+        },
+        {
+          "name": ".tls",
+          "offset": 17577472,
+          "bytes": 1024,
+          "sha256": "48724144ca4bb95fecbc4014113b84e492f223c516f1725d0f8c3148074da420"
+        },
+        {
+          "name": ".00cfg",
+          "offset": 17578496,
+          "bytes": 512,
+          "sha256": "77fea94e2b5b69771da77833f5db950325054e231400d56ce1ae291c4c3129f6"
+        },
+        {
+          "name": ".rsrc",
+          "offset": 17579008,
+          "bytes": 1536,
+          "sha256": "9c066ac1560b3975aa3a75f6ac000b93e757064765148a679dfb307a821d94ea"
+        },
+        {
+          "name": ".reloc",
+          "offset": 17580544,
+          "bytes": 125440,
+          "sha256": "becc57f0f88389c5b605a5bf94c7f62177a0d2f8eaa822de514d3fec4bb89165"
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "form": "packed",
+      "a": "VIP-Enhanced",
+      "b": "MVP-Enhanced",
+      "wholeFilesEqual": false,
+      "headersEqual": true,
+      "bodiesEqual": true,
+      "sectionsEqual": true,
+      "sectionComparisons": [
+        {
+          "name": "UPX0",
+          "equal": true
+        },
+        {
+          "name": "UPX1",
+          "equal": true
+        },
+        {
+          "name": ".rsrc",
+          "equal": true
+        }
+      ],
+      "shorterFileIsPrefix": true,
+      "lengthDifference": 2334
+    },
+    {
+      "form": "packed",
+      "a": "VIP-Enhanced",
+      "b": "VIP-Legacy",
+      "wholeFilesEqual": false,
+      "headersEqual": false,
+      "bodiesEqual": false,
+      "sectionsEqual": false,
+      "sectionComparisons": [
+        {
+          "name": "UPX0",
+          "equal": true
+        },
+        {
+          "name": "UPX1",
+          "equal": false
+        },
+        {
+          "name": ".rsrc",
+          "equal": false
+        }
+      ],
+      "shorterFileIsPrefix": false,
+      "lengthDifference": 17920
+    },
+    {
+      "form": "packed",
+      "a": "VIP-Enhanced",
+      "b": "MVP-Legacy",
+      "wholeFilesEqual": false,
+      "headersEqual": false,
+      "bodiesEqual": false,
+      "sectionsEqual": false,
+      "sectionComparisons": [
+        {
+          "name": "UPX0",
+          "equal": true
+        },
+        {
+          "name": "UPX1",
+          "equal": false
+        },
+        {
+          "name": ".rsrc",
+          "equal": false
+        }
+      ],
+      "shorterFileIsPrefix": false,
+      "lengthDifference": 20595
+    },
+    {
+      "form": "packed",
+      "a": "MVP-Enhanced",
+      "b": "VIP-Legacy",
+      "wholeFilesEqual": false,
+      "headersEqual": false,
+      "bodiesEqual": false,
+      "sectionsEqual": false,
+      "sectionComparisons": [
+        {
+          "name": "UPX0",
+          "equal": true
+        },
+        {
+          "name": "UPX1",
+          "equal": false
+        },
+        {
+          "name": ".rsrc",
+          "equal": false
+        }
+      ],
+      "shorterFileIsPrefix": false,
+      "lengthDifference": 15586
+    },
+    {
+      "form": "packed",
+      "a": "MVP-Enhanced",
+      "b": "MVP-Legacy",
+      "wholeFilesEqual": false,
+      "headersEqual": false,
+      "bodiesEqual": false,
+      "sectionsEqual": false,
+      "sectionComparisons": [
+        {
+          "name": "UPX0",
+          "equal": true
+        },
+        {
+          "name": "UPX1",
+          "equal": false
+        },
+        {
+          "name": ".rsrc",
+          "equal": false
+        }
+      ],
+      "shorterFileIsPrefix": false,
+      "lengthDifference": 18261
+    },
+    {
+      "form": "packed",
+      "a": "VIP-Legacy",
+      "b": "MVP-Legacy",
+      "wholeFilesEqual": false,
+      "headersEqual": true,
+      "bodiesEqual": true,
+      "sectionsEqual": true,
+      "sectionComparisons": [
+        {
+          "name": "UPX0",
+          "equal": true
+        },
+        {
+          "name": "UPX1",
+          "equal": true
+        },
+        {
+          "name": ".rsrc",
+          "equal": true
+        }
+      ],
+      "shorterFileIsPrefix": true,
+      "lengthDifference": 2675
+    },
+    {
+      "form": "unpacked",
+      "a": "VIP-Enhanced",
+      "b": "MVP-Enhanced",
+      "wholeFilesEqual": false,
+      "headersEqual": true,
+      "bodiesEqual": true,
+      "sectionsEqual": true,
+      "sectionComparisons": [
+        {
+          "name": ".text",
+          "equal": true
+        },
+        {
+          "name": ".rdata",
+          "equal": true
+        },
+        {
+          "name": ".data",
+          "equal": true
+        },
+        {
+          "name": ".pdata",
+          "equal": true
+        },
+        {
+          "name": ".idata",
+          "equal": true
+        },
+        {
+          "name": ".tls",
+          "equal": true
+        },
+        {
+          "name": ".00cfg",
+          "equal": true
+        },
+        {
+          "name": ".rsrc",
+          "equal": true
+        },
+        {
+          "name": ".reloc",
+          "equal": true
+        }
+      ],
+      "shorterFileIsPrefix": true,
+      "lengthDifference": 2334
+    },
+    {
+      "form": "unpacked",
+      "a": "VIP-Enhanced",
+      "b": "VIP-Legacy",
+      "wholeFilesEqual": false,
+      "headersEqual": false,
+      "bodiesEqual": false,
+      "sectionsEqual": false,
+      "sectionComparisons": [
+        {
+          "name": ".text",
+          "equal": false
+        },
+        {
+          "name": ".rdata",
+          "equal": false
+        },
+        {
+          "name": ".data",
+          "equal": false
+        },
+        {
+          "name": ".pdata",
+          "equal": false
+        },
+        {
+          "name": ".idata",
+          "equal": false
+        },
+        {
+          "name": ".tls",
+          "equal": false
+        },
+        {
+          "name": ".00cfg",
+          "equal": false
+        },
+        {
+          "name": ".rsrc",
+          "equal": false
+        },
+        {
+          "name": ".reloc",
+          "equal": false
+        }
+      ],
+      "shorterFileIsPrefix": false,
+      "lengthDifference": 116224
+    },
+    {
+      "form": "unpacked",
+      "a": "VIP-Enhanced",
+      "b": "MVP-Legacy",
+      "wholeFilesEqual": false,
+      "headersEqual": false,
+      "bodiesEqual": false,
+      "sectionsEqual": false,
+      "sectionComparisons": [
+        {
+          "name": ".text",
+          "equal": false
+        },
+        {
+          "name": ".rdata",
+          "equal": false
+        },
+        {
+          "name": ".data",
+          "equal": false
+        },
+        {
+          "name": ".pdata",
+          "equal": false
+        },
+        {
+          "name": ".idata",
+          "equal": false
+        },
+        {
+          "name": ".tls",
+          "equal": false
+        },
+        {
+          "name": ".00cfg",
+          "equal": false
+        },
+        {
+          "name": ".rsrc",
+          "equal": false
+        },
+        {
+          "name": ".reloc",
+          "equal": false
+        }
+      ],
+      "shorterFileIsPrefix": false,
+      "lengthDifference": 118899
+    },
+    {
+      "form": "unpacked",
+      "a": "MVP-Enhanced",
+      "b": "VIP-Legacy",
+      "wholeFilesEqual": false,
+      "headersEqual": false,
+      "bodiesEqual": false,
+      "sectionsEqual": false,
+      "sectionComparisons": [
+        {
+          "name": ".text",
+          "equal": false
+        },
+        {
+          "name": ".rdata",
+          "equal": false
+        },
+        {
+          "name": ".data",
+          "equal": false
+        },
+        {
+          "name": ".pdata",
+          "equal": false
+        },
+        {
+          "name": ".idata",
+          "equal": false
+        },
+        {
+          "name": ".tls",
+          "equal": false
+        },
+        {
+          "name": ".00cfg",
+          "equal": false
+        },
+        {
+          "name": ".rsrc",
+          "equal": false
+        },
+        {
+          "name": ".reloc",
+          "equal": false
+        }
+      ],
+      "shorterFileIsPrefix": false,
+      "lengthDifference": 113890
+    },
+    {
+      "form": "unpacked",
+      "a": "MVP-Enhanced",
+      "b": "MVP-Legacy",
+      "wholeFilesEqual": false,
+      "headersEqual": false,
+      "bodiesEqual": false,
+      "sectionsEqual": false,
+      "sectionComparisons": [
+        {
+          "name": ".text",
+          "equal": false
+        },
+        {
+          "name": ".rdata",
+          "equal": false
+        },
+        {
+          "name": ".data",
+          "equal": false
+        },
+        {
+          "name": ".pdata",
+          "equal": false
+        },
+        {
+          "name": ".idata",
+          "equal": false
+        },
+        {
+          "name": ".tls",
+          "equal": false
+        },
+        {
+          "name": ".00cfg",
+          "equal": false
+        },
+        {
+          "name": ".rsrc",
+          "equal": false
+        },
+        {
+          "name": ".reloc",
+          "equal": false
+        }
+      ],
+      "shorterFileIsPrefix": false,
+      "lengthDifference": 116565
+    },
+    {
+      "form": "unpacked",
+      "a": "VIP-Legacy",
+      "b": "MVP-Legacy",
+      "wholeFilesEqual": false,
+      "headersEqual": true,
+      "bodiesEqual": true,
+      "sectionsEqual": true,
+      "sectionComparisons": [
+        {
+          "name": ".text",
+          "equal": true
+        },
+        {
+          "name": ".rdata",
+          "equal": true
+        },
+        {
+          "name": ".data",
+          "equal": true
+        },
+        {
+          "name": ".pdata",
+          "equal": true
+        },
+        {
+          "name": ".idata",
+          "equal": true
+        },
+        {
+          "name": ".tls",
+          "equal": true
+        },
+        {
+          "name": ".00cfg",
+          "equal": true
+        },
+        {
+          "name": ".rsrc",
+          "equal": true
+        },
+        {
+          "name": ".reloc",
+          "equal": true
+        }
+      ],
+      "shorterFileIsPrefix": true,
+      "lengthDifference": 2675
+    }
+  ]
+}

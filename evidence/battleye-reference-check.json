@@ -1,0 +1,186 @@
+{
+  "method": "Offline case-insensitive fixed-term ASCII and UTF-16 checks; offsets only, no code extraction or execution.",
+  "limitations": "A reference does not prove a working bypass; missing plain-text references do not exclude transformed code or loader/server behavior.",
+  "results": [
+    {
+      "file": "Loader.unpacked.bin",
+      "sha256": "baadd8693ecbc88c1cc71ab0256d869b6e9a6c8effb1f90708668d70c600be58",
+      "matches": [
+        {
+          "term": "BattlEye",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "BattleEye",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "BEDaisy",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "BEService",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "bypass",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        }
+      ]
+    },
+    {
+      "file": "recovered/VIP-Enhanced.unpacked.dll",
+      "sha256": "91f5b6f5cf589a5f3b52208a678f6e64199e3aa1767105d4f5c2f6e78046addd",
+      "matches": [
+        {
+          "term": "BattlEye",
+          "asciiOffset": 11782840,
+          "utf16Offset": -1,
+          "present": true
+        },
+        {
+          "term": "BattleEye",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "BEDaisy",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "BEService",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "bypass",
+          "asciiOffset": 11728925,
+          "utf16Offset": -1,
+          "present": true
+        }
+      ]
+    },
+    {
+      "file": "recovered/MVP-Enhanced.unpacked.dll",
+      "sha256": "084f28a7927fd7569665757913682adb78155224c086471d62062181d6ed9569",
+      "matches": [
+        {
+          "term": "BattlEye",
+          "asciiOffset": 11782840,
+          "utf16Offset": -1,
+          "present": true
+        },
+        {
+          "term": "BattleEye",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "BEDaisy",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "BEService",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "bypass",
+          "asciiOffset": 11728925,
+          "utf16Offset": -1,
+          "present": true
+        }
+      ]
+    },
+    {
+      "file": "recovered/VIP-Legacy.unpacked.dll",
+      "sha256": "7fd13c16e57025256aade2d37e3f9fe59464491f1008613f7c7313c7eed9ea86",
+      "matches": [
+        {
+          "term": "BattlEye",
+          "asciiOffset": 11888216,
+          "utf16Offset": -1,
+          "present": true
+        },
+        {
+          "term": "BattleEye",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "BEDaisy",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "BEService",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "bypass",
+          "asciiOffset": 11834253,
+          "utf16Offset": -1,
+          "present": true
+        }
+      ]
+    },
+    {
+      "file": "recovered/MVP-Legacy.unpacked.dll",
+      "sha256": "b16e60197e642f60622c5712d057b51c0c6dbca968ac1dcd743ce75566088075",
+      "matches": [
+        {
+          "term": "BattlEye",
+          "asciiOffset": 11888216,
+          "utf16Offset": -1,
+          "present": true
+        },
+        {
+          "term": "BattleEye",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "BEDaisy",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "BEService",
+          "asciiOffset": -1,
+          "utf16Offset": -1,
+          "present": false
+        },
+        {
+          "term": "bypass",
+          "asciiOffset": 11834253,
+          "utf16Offset": -1,
+          "present": true
+        }
+      ]
+    }
+  ]
+}

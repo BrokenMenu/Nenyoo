@@ -1,0 +1,220 @@
+{
+  "method": "Publication export of selected ETW evidence; absolute times, process IDs and machine paths removed.",
+  "ETLSHA256": "394805cbf0b88eeeda4e283832cb042132d254b6f34f543b007d7a5accc00745",
+  "TracerptSummary": {
+    "Buffers": 1117,
+    "Events": 1574654,
+    "ReportedLost": 0
+  },
+  "Coverage": {
+    "mode": "Circular memory",
+    "startupSecondsOutsideRetainedActivity": 3.089606,
+    "samplerSamples": 24,
+    "samplerErrors": 0,
+    "state": "stopped",
+    "limits": "Retained activity begins approximately 3.1 seconds after loader startup. Zero reported lost events does not mean circular history was preserved."
+  },
+  "OrdinaryKernelImageLoads": [],
+  "PayloadImageEvents": [
+    {
+      "secondsRelativeToGameDLLLoad": -0.400312,
+      "event": "Load",
+      "imageRole": "loader",
+      "image": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 0.0,
+      "event": "Load",
+      "imageRole": "game",
+      "image": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 4.523921,
+      "event": "UnLoad",
+      "imageRole": "loader",
+      "image": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 17.410006,
+      "event": "UnLoad",
+      "imageRole": "game",
+      "image": "cached-menu.dll"
+    }
+  ],
+  "OrdinaryDriverImageEvents": [
+    {
+      "secondsRelativeToGameDLLLoad": 19.22442,
+      "event": "UnLoad",
+      "imageRole": "kernel",
+      "image": "BEDaisy.sys"
+    }
+  ],
+  "SelectedFileEvents": [
+    {
+      "secondsRelativeToGameDLLLoad": -12.079189,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "BEDaisy.sys"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -8.862091,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "BEDaisy.sys"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -5.66126,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "BEDaisy.sys"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -2.404639,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "BEDaisy.sys"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -0.498836,
+      "event": "Create",
+      "contextRole": "loader",
+      "file": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -0.496141,
+      "event": "Create",
+      "contextRole": "loader",
+      "file": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -0.408031,
+      "event": "Create",
+      "contextRole": "loader",
+      "file": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -0.407899,
+      "event": "Create",
+      "contextRole": "loader",
+      "file": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -0.399516,
+      "event": "Create",
+      "contextRole": "loader",
+      "file": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -0.399422,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -0.397444,
+      "event": "Create",
+      "contextRole": "loader",
+      "file": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -0.168594,
+      "event": "Create",
+      "contextRole": "game",
+      "file": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": -0.168542,
+      "event": "Create",
+      "contextRole": "game",
+      "file": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 0.00021,
+      "event": "Create",
+      "contextRole": "game",
+      "file": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 0.000309,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "cached-menu.dll"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 0.786539,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "BEDaisy.sys"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 3.997312,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "BEDaisy.sys"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 7.190575,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "BEDaisy.sys"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 10.47126,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "BEDaisy.sys"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 13.718957,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "BEDaisy.sys"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 16.915425,
+      "event": "Create",
+      "contextRole": "other",
+      "file": "BEDaisy.sys"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 19.225082,
+      "event": "Create",
+      "contextRole": "BattlEye service",
+      "file": "BEDaisy.sys"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 19.225164,
+      "event": "DletePath",
+      "contextRole": "BattlEye service",
+      "file": "BEDaisy.sys"
+    }
+  ],
+  "OrdinaryTargetProcessEvents": [
+    {
+      "secondsRelativeToGameDLLLoad": 4.523952,
+      "event": "End",
+      "process": "Loader.exe"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 17.410156,
+      "event": "End",
+      "process": "GTA5_Enhanced.exe"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 17.625941,
+      "event": "End",
+      "process": "GTA5_Enhanced_BE.exe"
+    },
+    {
+      "secondsRelativeToGameDLLLoad": 19.253748,
+      "event": "End",
+      "process": "BEService.exe"
+    }
+  ],
+  "InterpretationNotes": [
+    "DCEnd events excluded from new-load counts.",
+    "FileIo Create may describe opening an existing file.",
+    "DletePath event alone does not prove successful deletion.",
+    "No executed injection API call sequence was captured."
+  ]
+}

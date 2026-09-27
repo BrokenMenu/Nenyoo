@@ -1,0 +1,129 @@
+{
+  "file": "Loader.unpacked.bin",
+  "sha256": "baadd8693ecbc88c1cc71ab0256d869b6e9a6c8effb1f90708668d70c600be58",
+  "method": "Offline byte matching, ASCII and both UTF-16 alignments, and plausible PE-header checks. No target execution or extraction.",
+  "fixedChecks": [
+    {
+      "term": "NtLoadDriver",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "ZwLoadDriver",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "NtUnloadDriver",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "SeLoadDriverPrivilege",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "DriverEntry",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "ntoskrnl.exe",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "MmCopyVirtualMemory",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "PsLookupProcessByProcessId",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "KeStackAttachProcess",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "IoCreateDriver",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "IoCreateDevice",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "IoCreateSymbolicLink",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "\\Device\\",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "\\DosDevices\\",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "\\\\.\\",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "\\Registry\\Machine\\System\\CurrentControlSet\\Services",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "iqvw64e.sys",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "RTCore64.sys",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "gdrv.sys",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "dbutil_2_3.sys",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "capcom.sys",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    },
+    {
+      "term": "kdmapper",
+      "asciiOffset": -1,
+      "utf16Offset": -1
+    }
+  ],
+  "sysFilenameTokens": [],
+  "mzMarkerCount": 31,
+  "plausiblePeHeaders": [
+    {
+      "offset": 0,
+      "machine": "0x8664",
+      "sectionCount": 13,
+      "subsystem": 2,
+      "isDll": false
+    }
+  ],
+  "limits": "Absence does not exclude encrypted/compressed components, transformed strings, dynamic API resolution, external helpers, transient drivers or headerless kernel mappings. PE-header candidates alone do not prove driver execution."
+}
